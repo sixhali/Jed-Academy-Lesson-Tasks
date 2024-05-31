@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+.novbar{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: rgb(46, 46, 46);
+   
+    
+}
+
+.sea{
+    background-image: url(https://www.bhmpics.com/downloads/black-sea-wallpaper/62.8199709.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.sea h2{
+    color: aliceblue;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.sea p{
+    color: #878787;
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+.content{
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.content h2{
+    font-family: "Roboto", sans-serif;
+    padding: 2% 0px;
+}
+
+.content_last{
+    padding: 40px 20px;
+    text-align: center;
+}
+.content_last h2{
+    font-family: "Roboto", sans-serif;
+    padding: 2% 0px;
+}
+
+.background-image{
+    background-image: url(https://images.unsplash.com/photo-1516663713099-37eb6d60c825?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmxhY2slMjBtb29ufGVufDB8fDB8fHww);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding: 100px 0px;
+}
+
+
+
+
+
+ul li a {
+    color: white;
+    margin-left: 10px;
+}
+
+
+footer{
+    background-color: rgb(46, 46, 46);
+    width: 100%;
+    padding: 2% 0px;
+    text-align: center;
+    color: white;
+}

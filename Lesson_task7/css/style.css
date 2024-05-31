@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.allcontainer .child{
+    display: inline-block;
+    margin: 20px 100px;
+    padding: 100px 100px;
+    background-color: lightblue;
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+
+}
+
+
+
+.novbar{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+
+.LongLine{
+    width: 90%;
+    height: 45px;
+    background-color: plum;
+    border-radius: 10px;
+    margin: 30px auto;
+
+}
+

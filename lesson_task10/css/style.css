@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content h3{
+    font-weight: bold;
+    padding: 20px 0px;
+    margin: 0px 245px;
+}
+
+
+table{
+    margin: 0px auto;
+    font-size: 17px;
+    border:  1px solid #80ced6;
+    
+    
+   
+}
+table th{
+    text-align: left;
+    border:  1px solid #80ced6;
+    
+}
+
+table tr{
+    padding: 100px 60px;
+    border:  1px solid #80ced6;
+
+
+}
+
+
+table td{
+    border:  1px solid #80ced6;
+    text-align: left;
+    width: 720px;
+    height: 40px;
+    padding: 0px 10px;
+    
+}
+
+.text {
+    background-color: #f0fff8;
+    border: 1px solid #80ced6;
+    border-radius: 10px;
+    text-align: justify;
+    padding: 20px 30px;
+    width: 900px;
+    margin: 50px auto;
+}
+
+.textContent1,.textContent2,.textContent3{
+    width: 900px;
+    padding: 10px 50px;
+    border: 1px solid #80ced6;
+    border-radius: 10px;
+    text-align: justify;
+    margin: 20px auto;
+    background-color:#f0fff8 ;
+
+}
+
+.lifeText h3{
+    padding: 10px 0px;
+}
+
+
+
+

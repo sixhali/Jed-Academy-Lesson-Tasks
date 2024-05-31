@@ -1,0 +1,22 @@
+body{
+    background:aqua;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    color: brown;
+    text-align: center;
+}
+h4{
+    color: gray;
+}
+p{
+    text-align: right;
+}
+h2{
+    color: gray;
+    text-align: center;
+}

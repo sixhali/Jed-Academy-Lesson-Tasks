@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+
+.Biography{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+
+.content,.content_2{
+    display: inline-block;
+    border: 1px solid black;
+    width: 30%;
+    margin: 25px 20px;
+    padding: 20px 40px;
+    height: 100%;
+}
+
+
+
+.content p,.content_2 p{
+    text-align: left;
+    margin: 5px 20px;
+}
+
+.content .Price,.content_2 .Price{
+    margin: 15px 20px;
+    color: #b12704;
+}
+
+
+.content{
+    margin: 0px 70px;
+}
+
+.Shop_1{
+    margin-right: 100px;
+
+    margin-top: 20px;
+}
+
+.Shop_2{
+    margin-right: 100px;
+
+    margin-top: 20px;
+}
+
+
+.Infermation_1 , .Infermation_2{
+    background-color: #ebebeb;
+    padding: 5px 5px;
+
+   
+}
+
+
+.Infermation_1 p , .Infermation_2 p{
+    
+     text-align: justify;
+   
+}
+
+.Shop_1 a{
+    font-weight: bold;
+    color: #853ae0;
+    margin-right: 50px;
+    
+    
+}
+
+
+
+.Shop_2 a{
+    font-weight: bold;
+    color: #853ae0;
+    margin-right: 50px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
