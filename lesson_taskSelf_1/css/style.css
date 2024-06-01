@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+
+.Jersey_1,.Jersey_2,.Jersey_3,.Jersey_4,.Jersey_5,.Jersey_6,.Jersey_7,.Jersey_8,.Jersey_9,.Jersey_10,.Jersey_11,.Jersey_12{
+    display: inline-block;
+    width: 320px;
+    height: 400px;
+    padding: 50px 100px;
+    background-color: #f3f6f9;
+    margin: 60px 65px;
+}
+
+.Jersey_1 img,.Jersey_2 img,.Jersey_3 img ,.Jersey_4 img,.Jersey_5 img,.Jersey_6 img,.Jersey_7 img,.Jersey_8 img,.Jersey_9 img,.Jersey_10 img ,.Jersey_11 img ,.Jersey_12 img{
+    max-width: 350px;
+    max-height: 300px;
+    margin-left: -80px;
+}
+
+
+.Jersey_1 .JerseyInfermation1,.Jersey_2 .JerseyInfermation2,.Jersey_3 .JerseyInfermation3,
+.Jersey_4 .JerseyInfermation4,.Jersey_5 .JerseyInfermation5,
+.Jersey_6 .JerseyInfermation6,.Jersey_7 .JerseyInfermation7,
+.Jersey_8 .JerseyInfermation8,.Jersey_9 .JerseyInfermation9,
+.Jersey_10 .JerseyInfermation10,.Jersey_11 .JerseyInfermation11,
+.Jersey_12 .JerseyInfermation12
+{
+    width: 300px;
+    display: inline-block;
+    margin: 60px -100px;
+    padding: 15px 0px;
+}
+
+
+
+.Jersey_3 .JerseyInfermation3{
+    width: 300px;
+    padding: 0px 30px;
+    margin: 60px -130px;
+}
+
+.Jersey_1 a,.Jersey_2 a,.Jersey_3 a,
+.Jersey_4 a,.Jersey_5 a,
+.Jersey_6 a,.Jersey_7 a,
+.Jersey_8 a,.Jersey_9 a,
+.Jersey_10 a,.Jersey_11 a,
+.Jersey_12 a{
+    color: #001838;
+}
+
+.JerseyInfermation1 .price,.JerseyInfermation2 .price,.JerseyInfermation3 .price,
+.JerseyInfermation4 .price,.JerseyInfermation5 .price,
+.JerseyInfermation6 .price,.JerseyInfermation7 .price,
+.JerseyInfermation8 .price,.JerseyInfermation9 .price,
+.JerseyInfermation10 .price, .JerseyInfermation11 .price,
+.JerseyInfermation12 .price{
+    font-weight: bold;
+}
+
+.price{
+    display: block;
+    margin-top: 10px 0px;
+}
