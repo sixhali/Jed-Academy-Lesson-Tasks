@@ -23,6 +23,7 @@
 }
 
 
+
 .Jersey_1 .JerseyInfermation1,.Jersey_2 .JerseyInfermation2,.Jersey_3 .JerseyInfermation3,
 .Jersey_4 .JerseyInfermation4,.Jersey_5 .JerseyInfermation5,
 .Jersey_6 .JerseyInfermation6,.Jersey_7 .JerseyInfermation7,
@@ -32,17 +33,10 @@
 {
     width: 300px;
     display: inline-block;
-    margin: 60px -100px;
-    padding: 15px 0px;
+    margin: 50px -100px;
+    padding: 20px 0px;
 }
 
-
-
-.Jersey_3 .JerseyInfermation3{
-    width: 300px;
-    padding: 0px 30px;
-    margin: 60px -130px;
-}
 
 .Jersey_1 a,.Jersey_2 a,.Jersey_3 a,
 .Jersey_4 a,.Jersey_5 a,
