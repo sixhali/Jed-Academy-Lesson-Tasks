@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar nav{
+    text-align: center;
+    font-size: 30px;
+    background-color: purple;
+    color: white;
+    padding: 40px 0px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    gap: 20px;
+    
+    
+
+}
+.content{
+    padding: 0px 20px;
+    
+    padding-bottom: 80px;
+    background-color: aqua;
+}
+
+.container h2{
+    margin: 14px 0px;
+}
+
+.content p{
+    width: 300px;
+}

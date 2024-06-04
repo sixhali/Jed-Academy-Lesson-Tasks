@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color:rgb(245, 245, 245) ;
+}
+
+.jedAcademyConatiner{
+    display:  flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 700px;
+    align-items: center;
+    padding: 20px 0px;
+    
+}
+
+.content{
+    background-color: #fff;
+    border: 1px solid #173d7a;
+    color: #173d7a;
+    border-radius: 8px;
+    width: 270px;
+    padding: 30px 20px;
+    height: 320px;
+   
+}
+
+
+.content img{
+    margin: 15px 0px;
+}
+
+.content p{
+    color: #A2A2A2;
+    font-size: 14px;
+    margin: 30px 0px;
+}

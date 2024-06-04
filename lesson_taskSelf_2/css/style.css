@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Visby CF"
+}
+
+
+.containerCode{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    
+}
+
+.titleInfo{
+    font-weight: 700;
+    font-size: 27px;
+    padding: 60px 0px;
+    background-color: rgb(246, 246, 246);
+    text-align: center;
+}
+
+
+.content{
+    text-align: center;
+    padding: 50px 50px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 330px;
+    height: 400px;
+    
+
+}
+
+span{
+    font-weight: bold;
+}
+
+.content h3{
+    margin: 25px 0px;
+}
+
+.content p{
+    width: 300px;
+    text-align: center;
+    margin: 20px -35px;
+}
+
+.containerCode2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: rgb(246, 246, 246);
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.content2{
+    background-color: #fff;
+    padding: 50px 40px;
+}
+.content2 p{
+    margin: 20px 0px;
+    width: 500px;
+}
+
+.content2 h5{
+    text-align: center;
+    margin: 50px 0px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    width: 480px;
+}
+
+.Button{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.Button h3{
+    border: none;
+    background-color: #ffcb05;
+    padding: 10px 60px;
+}
+.Button h4{
+    border-bottom: 1px solid #ffcb05;
+    padding: 10px 30px;
+}
