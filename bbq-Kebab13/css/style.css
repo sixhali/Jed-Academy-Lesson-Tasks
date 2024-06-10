@@ -15,7 +15,8 @@
 
 body{
     background-color: #ffff;
-    ;
+    
+    
 }
 
 
@@ -44,7 +45,7 @@ body{
     font-size: 80.3px;
     line-height: 156.19px;
     font-weight: 700;
-    color:  #393939;
+    color:#393939;
     font-family: Roboto-bold;
     
     
@@ -59,8 +60,25 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 665px;
 }
+.navbar nav ul li:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#16A036;
+    width: 200px;
+    height: 40px;
+    border-radius: 60px;
+    color: #ffffff;
+    
+}
+
+
+
 
 
 
@@ -72,7 +90,7 @@ body{
     align-items: center;
     padding: 0px 20px;
     background-color: #ffff;
-    width: 80%;
+    width: 70%;
     height: 7%;
     margin: 0px auto;
 }
@@ -119,9 +137,9 @@ body{
 }
 
 .foodPriceSort{
-    background-color:  #16A036;
+    background-color:#16A036;
     width: 100%;
-    height: 474px;
+    height: fit-content;
     
 }
 
@@ -139,7 +157,7 @@ body{
     flex-direction: column;
     margin: 0px 30px;
     width: 10px;
-    height: 10px;
+    height: 230px;
 }
 
 .foodcomposition{
@@ -154,7 +172,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 10px;
-    height: 10px;
+    height: 230px;
 }
 
 .foodcomposition{
@@ -187,23 +205,34 @@ body{
     margin-top: 30px;
 }
 .food{
+    position: relative;
     background-color: #f5f5f5;
-    height: 700px;
-    
-    
+    height: fit-content
 
 }
 
 
 .drink-Conatiner{
-    padding: 5% 30px;
+    position: relative;
+    padding: 6% 10%;
     background-color: #f5f5f5;
-    height: 400px;
+    height: 500px;
     text-align: center;
 }
 
+.drink-Conatiner h3{
+    font-family: Roboto-bold;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45.35px;
+}
+
+.drink-Conatiner p{
+    color: #5E5E5E;
+ 
+}
+
 .drink-Conatiner .drink{
-    margin: 30px 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -211,10 +240,264 @@ body{
     
 }
 
-.drink-Conatiner .drink img{
-    margin: 30px 0px;
+
+
+.drink-Conatiner img{
+    padding: 5% 0%;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24.19px;
+}
+
+.DeliveryInfermation{
+    margin: 10% auto;
+    text-align: center;
+    width: 840px;
+}
+
+.DeliveryInfermation h3{
+    font-family: Roboto-bold;
+    border-bottom: 1px solid  #16A036;
+    width: 630px;;
+    margin: 5% auto;
+    padding: 3% 0px;
+}
+
+.DeliveryInfermation p{
+    color: #5E5E5E;
+
 }
 
 
+.delivery-section{
+    display: flex;
+    gap: 20%;
+    justify-content:center;
+    align-items: center;
+}
+
+.section_1{
+   text-align: center;
+}
+
+
+.section_1 .imgborder{
+    margin: 10px auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    width: 206px;
+    height: 206px;
+}
+
+.section_1 p{
+    width: 414px;
+    margin: 10px auto;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21.17px;
+    color:#8D8D8D;
+    
+}
+
+.map-content .map-img{
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+/* .downarrowbg{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+} */
+
+
+.lastbg{
+    background-color: #ffffff;
+    position: relative;
+    bottom: -50px;
+    width: 100%;
+    height: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.footer-content{
+    background-color: #333333;
+    padding: 5% 10%;
+    padding-bottom: 10%;
+}
+
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+
+    
+}
+
+.footer-conatiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    
+}
+
+.conatiner1 ul li{
+    color: #ffff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21.17px;
+}
+
+.conatiner1 p{
+    color: #B3B3B3;
+    padding: 15px 0px;
+}
+
+
+
+.conatiner2 h3{
+    color: #B3B3B3;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21.17px;
+    padding: 21px 0px;
+}
+
+.conatiner2 p{
+    color: #ffff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21.17px;
+    width: 410px;
+}
+
+
+.pricesMenu{
+    display: flex;
+    color: white;
+    font-family: Roboto-bold;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 310px;
+    right: 10px;
+    border: 5px solid rgb(255, 255, 255);
+    background-color: #16A036;
+    border-radius: 50%;
+    width: 82px;
+    height: 82px;
+}
+
+.pricesMenuDrink{
+    display: flex;
+    color: white;
+    font-family: Roboto-bold;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 380px;
+    left: 140px;
+    border: 5px solid rgb(255, 255, 255);
+    background-color: #16A036;
+    border-radius: 50%;
+    padding: 1% 10px ;
+
+}
+
+.pricesMenuDrink2{
+    display: flex;
+    color: white;
+    font-family: Roboto-bold;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 380px;
+    right:190px;
+    border: 5px solid rgb(255, 255, 255);
+    background-color: #16A036;
+    border-radius: 50%;
+    padding: 1% 10px ;
+
+}
+
+.pricesMenuDrink3{
+    display: flex;
+    color: white;
+    font-family: Roboto-bold;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 380px;
+    right: 460px;
+    border: 5px solid rgb(255, 255, 255);
+    background-color: #16A036;
+    border-radius: 50%;
+    padding: 1% 10px ;
+
+}
+.pricesMenuDrink4{
+    display: flex;
+    color: white;
+    font-family: Roboto-bold;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 380px;
+    left: 400px;
+    border: 5px solid rgb(255, 255, 255);
+    background-color: #16A036;
+    border-radius: 50%;
+    padding: 1% 10px ;
+
+}
+
+.pricesMenuDrink5{
+    display: flex;
+    color: white;
+    font-family: Roboto-bold;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 380px;
+    left: 650px;
+    border: 5px solid rgb(255, 255, 255);
+    background-color: #16A036;
+    border-radius: 50%;
+    padding: 1% 10px ;
+
+}
+
+.pricesMenuDrink6{
+    display: flex;
+    color: white;
+    font-family: Roboto-bold;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 380px;
+    right: 700px;
+    border: 5px solid rgb(255, 255, 255);
+    background-color: #16A036;
+    border-radius: 50%;
+    padding: 1% 10px ;
+
+}
 
 
