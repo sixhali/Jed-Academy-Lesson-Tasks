@@ -1,0 +1,107 @@
+@font-face {
+    font-family:Roboto-bold ;
+    src: url(/form_task16/assets/font/Roboto-Bold.ttf);
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    background-color:#D5475A ;
+}
+
+.form-container{
+   background-color: #ffff;
+   padding-bottom: 40px;
+   margin: 10% auto;
+   border-radius: 20px;
+   height: 300px;
+   width: 300px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.form-container h3{
+    color: #D5475A;
+    padding: 5% 0px;
+    font-family:Roboto-bold ;
+    font-size: 25px;
+    border-bottom: 1px solid #CCCCCC;
+    margin: 8% 5%;
+}
+.username{
+    position: relative;
+}
+
+.email{
+    position: relative;
+}
+
+.password{
+    position: relative;
+}
+
+
+i{
+    color: #CCCCCC;
+    font-size: 13px;
+    position: absolute;
+    bottom: 25px;
+    right: 10px;
+}
+
+input[type="text"]{  
+    border: 1px solid #CCCCCC ;
+    padding: 0px 20px;
+    outline: none;
+    width: 200px;
+    margin: 10px 0px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus{  
+   border: 1px solid #D5475A;
+}
+
+input[type="email"]:focus{  
+    border: 1px solid #D5475A;
+}
+ 
+
+input[type="password"]:focus{  
+
+    border: 1px solid #D5475A;
+}
+ 
+
+
+input[type="email"]{  
+    border: 1px solid #CCCCCC ;
+    padding: 0px 20px;
+    outline: none;
+    width: 200px;
+    margin: 10px 0px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+input[type="password"]{  
+    border: 1px solid #CCCCCC ;
+    padding: 0px 20px;
+    outline: none;
+    width: 200px;
+    margin: 10px 0px;
+    height: 40px;
+    border-radius: 5px;
+}

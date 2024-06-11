@@ -1,0 +1,145 @@
+@font-face {
+    font-family:Roboto-bold ;
+    src: url(/form_task15/assets/font/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family:FiraSans-Bold ;
+    src: url(/form_task15/assets/font/FiraSans-Bold.ttf);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    background-color: #25252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    position: relative;
+    width: 50%;
+
+}
+
+
+
+
+
+.formConatiner{
+    background-color: #ffff;
+    display: flex;
+    padding: 20px 10px;
+    margin: 1%;
+    justify-content: center;
+    align-content: center;
+    width: 800px;
+}
+
+
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 200px;
+    padding: 20px;
+    width: 400px;
+    color: white;
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.price{
+    position: absolute;
+    background-color: purple;
+    top: 200px;
+    right: 20px;
+    padding: 20px 0px;
+    text-align: center;
+    width: 90%;
+    font-family:Roboto-bold ;
+}
+
+.right{
+    margin: 0px 30px;
+}
+
+
+.right h3{
+    font-family:FiraSans-Bold ;
+}
+
+
+.fullname{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+
+}
+
+
+label{
+    
+    margin: 12px 0px;
+}
+
+.E-mail{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+input[type="text"]{
+    width: 300px;
+    padding: 10px 30px;
+}
+
+input[type="email"]{
+    padding: 10px 20px;
+}
+
+input[type="password"]{
+    padding: 10px 20px;
+}
+
+
+input[type="submit"]{
+    background-color: #3B62C9;
+    color: #ffff;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+}
+
+.checkbox label{
+    margin: 10px 5px;
+}
+
+.checkbox label a{
+    border-bottom: 2px solid #3F59A9;
+    padding: 10px 0px;
+    color: #3F59A9;
+    width: 140px;
+    margin: 0px 22px;
+    display: block;
+}

@@ -1,0 +1,172 @@
+@font-face {
+    font-family:Roboto-bold ;
+    src: url(/form_task14/font/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family:Kanit-blackitalic ;
+    src: url(/form_task14/font/Kanit-BlackItalic.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #25252525;
+}
+
+
+.form-container{
+    background-color: #ffff;
+    border-radius: 5px;
+    width: 350px;
+    margin: 5% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container img{
+    display: flex;
+}
+
+.titleform{
+    border-bottom: 3px solid #017AFD;
+    text-align: center;
+    padding: 5% 0px;
+    margin: 10% 0px;
+    font-family:Kanit-blackitalic ;
+    font-size: 30px;
+}
+
+.FirstName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+label{
+    font-family:Roboto-bold ;
+}
+
+
+
+.LastName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.E-mail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.Gender{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Password{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input[type="submit"]{
+    border-color: #017AFD;
+    background-color: #017AFD;
+    border-radius: 10px;
+    margin: 30px 10px;
+    cursor: pointer;
+    color: #ffff;
+    padding:3% 40%;
+}
+
+.Gender{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+input[type="text"]{
+    margin: 10px 0px;
+    width: 300px;
+    outline: none;
+    font-size: 20px;
+    border: 1px solid #017AFD;
+    height: 35px;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+input[type="text"]::placeholder{
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+
+}
+.FirstName input:focus{
+    border: 2px solid #004894;
+}
+
+.LastName input:focus{
+    border: 2px solid #004894;
+}
+
+.E-mail input:focus{
+    border: 2px solid #004894;
+}
+
+.Password input:focus{
+    border: 2px solid #004894;
+}
+input[type="email"]{
+    margin: 10px 0px;
+    width: 300px;
+    outline: none;
+    font-size: 20px;
+    border: 1px solid #017AFD;
+    height: 35px;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+input[type="email"]::placeholder{
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+
+}
+
+input[type="Password"]{
+    margin: 10px 0px;
+    width: 300px;
+    outline: none;
+    font-size: 20px;
+    border: 1px solid #017AFD;
+    height: 35px;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+input[type="Password"]::placeholder{
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+
+}
+
+.Password{
+    margin: 30px 0px;
+}
+
