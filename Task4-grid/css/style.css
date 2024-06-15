@@ -1,0 +1,19 @@
+.cards{
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 50px 50px 50px;
+    gap: 10px;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+
+}
+.card{
+    border: 2px solid;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px;
+   
+}
