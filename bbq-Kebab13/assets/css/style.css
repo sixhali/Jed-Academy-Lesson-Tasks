@@ -56,7 +56,7 @@ body{
 }
 
 .navbar nav {
-    background-image: url(/bbq-Kebab13/img/KebabBg.svg);
+    background-image: url(../img/KebabBg.svg);
     background-position: center;
     background-repeat: no-repeat;
     margin: 20px 20px;
@@ -412,8 +412,8 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 380px;
-    left: 140px;
+    top: 350px;
+    left: 120px;
     border: 5px solid rgb(255, 255, 255);
     background-color: #16A036;
     border-radius: 50%;
@@ -428,7 +428,7 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 380px;
+    top: 350px;
     right:190px;
     border: 5px solid rgb(255, 255, 255);
     background-color: #16A036;
@@ -439,13 +439,13 @@ body{
 
 .pricesMenuDrink3{
     display: flex;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: Roboto-bold;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 380px;
-    right: 460px;
+    top: 350px;
+    right: 420px;
     border: 5px solid rgb(255, 255, 255);
     background-color: #16A036;
     border-radius: 50%;
@@ -459,8 +459,8 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 380px;
-    left: 400px;
+    top: 350px;
+    left: 350px;
     border: 5px solid rgb(255, 255, 255);
     background-color: #16A036;
     border-radius: 50%;
@@ -475,8 +475,8 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 380px;
-    left: 650px;
+    top: 350px;
+    left: 570px;
     border: 5px solid rgb(255, 255, 255);
     background-color: #16A036;
     border-radius: 50%;
@@ -491,8 +491,8 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 380px;
-    right: 700px;
+    top: 350px;
+    right: 650px;
     border: 5px solid rgb(255, 255, 255);
     background-color: #16A036;
     border-radius: 50%;
