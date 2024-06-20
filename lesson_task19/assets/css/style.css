@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sky{
+    background-image: url(../img/skybg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:800px;
+    position: relative;
+}
+
+
+
+.plane img{
+    position: absolute;
+    top: 300px;
+    left: -450px;
+    width: 100%;
+    max-width: 450px;
+    animation-name: planemove;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes planemove {
+    from{
+        left: -450px;
+    }
+    to{
+        left: 100%;
+    }
+}
