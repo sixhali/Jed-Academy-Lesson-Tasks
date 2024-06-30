@@ -1,0 +1,138 @@
+@media (max-width:576px){
+    .form-vladiator{
+        width: 320px;
+    }
+
+    .iconxSocialNetwork{
+        font-size: 15px;
+    }
+
+    .google a{
+      width: 230px;
+      padding: 5px 50px;
+        
+    }
+
+    .apple a{
+        width: 230px;
+        padding: 5px 50px;
+    }
+
+
+    .apple .or::before{
+        width: 100px;
+    }
+    
+    .apple .or::after{
+        width: 100px;
+    }
+
+    .inputEmail input[type="text"]{
+        padding: 10px 30px;
+        max-width: 200px;
+        font-size: 10px;
+    }
+
+    .btn .nextbtn{
+        max-width: 200px;
+        margin: auto;
+    }
+
+    .btn .nextbtn button{
+        margin-bottom: 20px;
+        max-width: 200px;
+        font-size: 15px;
+        font-weight: 500;
+
+    }
+
+    .btn .passwordbtn{
+        max-width: 200px;
+        margin: auto;
+    }
+
+    .btn .passwordbtn button{
+        padding: 10px 10px;
+        margin-bottom: 20px;
+        max-width: 200px;
+        font-size: 15px;
+        font-weight: 500;
+
+    }
+
+    
+}
+
+
+@media (max-width:320px){
+    .form-vladiator{
+        width: 270px;
+    }
+    
+}
+
+@media (max-width:197px){
+    .form-vladiator{
+        width: 100px;
+    }
+
+
+    .iconxSocialNetwork{
+        font-size: 5px;
+    }
+
+    .google a{
+      width: 100px;
+      padding: 5px 10px;
+        
+    }
+
+    .apple a{
+        width: 100px;
+        padding: 5px 10px;
+    }
+
+
+    .apple .or::before{
+        width: 10px;
+    }
+    
+    .apple .or::after{
+        width: 10px;
+    }
+
+    .inputEmail input[type="text"]{
+        padding: 10px 30px;
+        max-width: 100px;
+        font-size: 8px;
+    }
+
+    .btn .nextbtn{
+        max-width: 100px;
+        margin: auto;
+    }
+
+    .btn .nextbtn button{
+        margin-bottom: 20px;
+        max-width: 100px;
+        font-size: 15px;
+        font-weight: 500;
+
+    }
+
+    .btn .passwordbtn{
+        max-width: 100px;
+        margin: auto;
+    }
+
+    .btn .passwordbtn button{
+        padding: 10px 10px;
+        margin-bottom: 20px;
+        max-width: 100px;
+        font-size: 15px;
+        font-weight: 500;
+
+    }
+
+    
+}
