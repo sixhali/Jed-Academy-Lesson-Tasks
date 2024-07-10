@@ -337,42 +337,196 @@
 
 
 
-let UserAmount=2000
+// let UserAmount=2000
 
 
-let atm_Infermation=alert("1-bütcəni gösdər\n"+
-                           "2- pulu çıxartmaq\n"+
-                           "3- pulu yatırmaq\n"+
-                           "4- sistemden çıxmaq")
+// let atm_Infermation=alert("1-bütcəni gösdər\n"+
+//                            "2- pulu çıxartmaq\n"+
+//                            "3- pulu yatırmaq\n"+
+//                            "4- sistemden çıxmaq")
 
 
-let userInport=+prompt("zehmet olmasa seçim ediniz (1-4)-aralığında rəqəm seçiniz: ")
+// let userInport=+prompt("zehmet olmasa seçim ediniz (1-4)-aralığında rəqəm seçiniz: ")
 
 
-if(userInport==1){
-    console.log(`Sizin Məbləğiniz: ${UserAmount} `)
-}else if(userInport==2){
-    let withdraw_money_User_input=+prompt("zehmet olmasa çıxarmaq isdediyiniz mevacibinizi yazin: ");
-    if(withdraw_money_User_input<=UserAmount){
-        UserAmount-=withdraw_money_User_input
-        console.log("pulu çıxartmaq uğrlu keçdi: ",UserAmount)
+// if(userInport==1){
+//     console.log(`Sizin Məbləğiniz: ${UserAmount} `)
+// }else if(userInport==2){
+//     let withdraw_money_User_input=+prompt("zehmet olmasa çıxarmaq isdediyiniz mevacibinizi yazin: ");
+//     if(withdraw_money_User_input<=UserAmount){
+//         UserAmount-=withdraw_money_User_input
+//         console.log("pulu çıxartmaq uğrlu keçdi: ",UserAmount)
 
-    }else{
-        console.log(`Hesabnızda bu qədər ${withdraw_money_User_input} pul yoxdur`)
-    }
+//     }else{
+//         console.log(`Hesabnızda bu qədər ${withdraw_money_User_input} pul yoxdur`)
+//     }
     
-}else if(userInport==3){
-    let money_deposite= +prompt(` zehmet olmasa hesabinza daxil edlicey meblegi yaziniz: `)
-    UserAmount +=money_deposite
-    console.log("Hesabinizda guncel mebleginiz : ",UserAmount)
+// }else if(userInport==3){
+//     let money_deposite= +prompt(` zehmet olmasa hesabinza daxil edlicey meblegi yaziniz: `)
+//     UserAmount +=money_deposite
+//     console.log("Hesabinizda guncel mebleginiz : ",UserAmount)
     
 
-}else if(userInport==4){
-    console.log("Hesabininzdan çıxış olunur ...")
-}else{
-    console.log("düzgun seçim edniniz: ",userInport)
+// }else if(userInport==4){
+//     console.log("Hesabininzdan çıxış olunur ...")
+// }else{
+//     console.log("düzgun seçim edniniz: ",userInport)
+// }
+
+
+
+
+// let operant_1=+prompt("zehmet olmasa 1-nci operanti yaziniz: ");
+// let operator=prompt("operatoru qeyd ediniz: ");
+// let operant_2=+prompt("zehmet olmasa 1-nci operanti yaziniz: ")
+
+
+// if(operator==="+"){
+//     let result =operant_1+operant_2
+//     console.log(`${operant_1} + ${operant_2} = ${result}`)
+// }else if(operator==="-"){
+//     let result =operant_1-operant_2
+//     console.log(`${operant_1} - ${operant_2} = ${result}`)
+// }else if(operator==="*"){
+//     let result =operant_1*operant_2
+//     console.log(`${operant_1} * ${operant_2} = ${result}`)
+// }else if(operator==="/"){
+//     let result =operant_1/operant_2
+//     console.log(`${operant_1} / ${operant_2} = ${result}`)
+// }else if(operator==="%"){
+//     let result =operant_1%operant_2
+//     console.log(`${operant_1} % ${operant_2} = ${result}`)
+// }else if(operator==="**"){
+//     let result =operant_1%operant_2
+//     console.log(`${operant_1} ** ${operant_2} = ${result}`)
+// }else{
+//     console.log("xais olunur duzgun operator secim edin:(+ , -  , * , / ,% , **)")
+// }
+
+
+
+
+// atm uygulmasi -2 swtich-case
+
+
+
+// let userDeposite=3000
+
+
+
+// let alertuser=alert("Xoş gəldiniz Şixəli Atm Xaiş olunur eşağda gosterilen melumatı diqqetli oxyunuz!!\n"+
+//                     "1.bütcəni gösdər\n"+
+//                     "2.pulu çıxartmaq\n"+
+//                     "3.pulu yatırmaq\n"+
+//                     "4.sistemden çıxmaq\n")
+
+// let userInput=+prompt("Xais olunur seçim edeniz(1-4)reqemleri ile isifade edin: ")
+
+// switch (userInput) {
+//     case 1:
+//         console.log(`Sizin Hal-Hazırda hesabinizda olan bütcə: ${userDeposite}`)
+        
+//     break;
+
+//     case 2:
+//         let withdraw_money_User_input=+prompt(`Hesabınızdan çxarlacaq mebleği daxil edin: `)
+//         if(withdraw_money_User_input<=userDeposite){
+//             userDeposite-=withdraw_money_User_input
+//             console.log(`Hesabınızdan mebleğ çıxartmaq uğurlu keçcdi :${userDeposite}`)
+//         }else{
+//             console.log(`Hesanizda bu qeder: ${withdraw_money_User_input} mebleğ yoxdur` )
+//         }
+
+//     break;
+
+//     case 3:
+//         let addMoneyAccountPayment=+prompt(`Hesabınıza artırla biləcəyi məbləği daxil edin: `)
+//         userDeposite += addMoneyAccountPayment
+//         console.log(`Hesabınza Məbləğ uğurlu keçcdi :${userDeposite}`)    
+//     break;
+
+//     case 4:
+//         console.log("Hesabınızdan çxış etdiniz....")
+//     break;    
+
+//     default:
+//         console.log("yanlış seçim etdniz zehmet olmasa düzgün seçim edesiniz!!")
+
+
+//     break;
+// } 
+
+
+
+
+/* 
+ 11-nci sinif imthan sualini hespalmanmasi 1-nci imthan:
+ 1-Riaziyyat
+ 2-Azeribaycan-dili
+ 3-xarici dil
+*/
+
+
+let Mathematics_Correct,Mathematics_Wrong
+let AzeribajanLanguage_Correct,AzeribajanLanguage_Wrong
+let ForeignLanguage_Correct,ForeignLanguage_Wrong
+let result
+
+
+let text=alert("Xoş gelmisiz İmthan neticələri yoxlma tetbiqinə indi siz aşağdaki melumatları diqqətli şəkildə baxın!!\n"+
+               "1 .İmthan neticələri yoxlma\n"+
+               "2 .Sistemden çıxmaq")
+
+
+
+let inputStudent=+prompt("Əziz tələbə Seçmnizi edin sadece 1/2 rqemleri ile ve ya :  ")
+
+
+switch (inputStudent) {
+    case 1:
+
+        Mathematics_Correct=+prompt("Riaziyyatda ne qeder doğru var?: ")
+        Mathematics_Wrong=+prompt("Riaziyyatda ne qeder Sehv var?: ")
+       
+
+        AzeribajanLanguage_Correct=+prompt("Azeribaycan dilində ne qeder doğru var?: ")
+        AzeribajanLanguage_Wrong=+prompt("Azeribaycan dilində ne qeder sehv var?:  ")
+
+        ForeignLanguage_Correct=+prompt("Xarici dilində ne qeder doğru var?: ")
+        ForeignLanguage_Wrong=+prompt("Xarici dilində ne qeder sehv var?:  ")
+
+        let correct_Total=Mathematics_Correct+AzeribajanLanguage_Correct+ForeignLanguage_Correct
+        let wrong_Total=Mathematics_Wrong+AzeribajanLanguage_Wrong+ForeignLanguage_Wrong
+        let Left_CorrectToatal=correct_Total-(wrong_Total/2)
+        result=Left_CorrectToatal*3  
+        console.log(` əziz tələbə sizin balıniz bu qederdi: ${result}`)    
+        break;
+    
+    case 2:
+        let LogOut=prompt("Sistemdən çxış etmək isteyirsinizmi hə/yox")
+        if(LogOut==="hə"){
+            console.log("Sistemdən çxış olunur....")
+        }else{   
+            Mathematics_Correct=+prompt("Riaziyyatda ne qeder doğru var?: ")
+            Mathematics_Wrong=+prompt("Riaziyyatda ne qeder Sehv var?: ")
+           
+    
+            AzeribajanLanguage_Correct=+prompt("Azeribaycan dilində ne qeder doğru var?: ")
+            AzeribajanLanguage_Wrong=+prompt("Azeribaycan dilində ne qeder sehv var?:  ")
+    
+            ForeignLanguage_Correct=+prompt("Xarici dilində ne qeder doğru var?: ")
+            ForeignLanguage_Wrong=+prompt("Xarici dilində ne qeder sehv var?:  ")
+    
+            let correct_Total=Mathematics_Correct+AzeribajanLanguage_Correct+ForeignLanguage_Correct
+            let wrong_Total=Mathematics_Wrong+AzeribajanLanguage_Wrong+ForeignLanguage_Wrong
+            let Left_CorrectToatal=correct_Total-(wrong_Total/2)
+            result=Left_CorrectToatal*3  
+            console.log(` əziz tələbə sizin balıniz bu qederdi: ${result}`)
+        }
+    break;
+    
+    default:
+        console.error("Əziz tələbə yanlış seçim etdiniz zehmet olmasa 1/2 ile reqem seçəsiniz!! ")
+        break;
 }
-
-
-
 
