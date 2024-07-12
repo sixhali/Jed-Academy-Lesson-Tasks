@@ -467,66 +467,301 @@
 */
 
 
-let Mathematics_Correct,Mathematics_Wrong
-let AzeribajanLanguage_Correct,AzeribajanLanguage_Wrong
-let ForeignLanguage_Correct,ForeignLanguage_Wrong
-let result
+// let Mathematics_Correct,Mathematics_Wrong
+// let AzeribajanLanguage_Correct,AzeribajanLanguage_Wrong
+// let ForeignLanguage_Correct,ForeignLanguage_Wrong
+// let result
 
 
-let text=alert("Xoş gelmisiz İmthan neticələri yoxlma tetbiqinə indi siz aşağdaki melumatları diqqətli şəkildə baxın!!\n"+
-               "1 .İmthan neticələri yoxlma\n"+
-               "2 .Sistemden çıxmaq")
+// let text=alert("Xoş gelmisiz İmthan neticələri yoxlma tetbiqinə indi siz aşağdaki melumatları diqqətli şəkildə baxın!!\n"+
+//                "1 .İmthan neticələri yoxlma\n"+
+//                "2 .Sistemden çıxmaq")
 
 
 
-let inputStudent=+prompt("Əziz tələbə Seçmnizi edin sadece 1/2 rqemleri ile ve ya :  ")
+// let inputStudent=+prompt("Əziz tələbə Seçmnizi edin sadece 1/2 rqemleri ile ve ya :  ")
 
 
-switch (inputStudent) {
-    case 1:
+// switch (inputStudent) {
+//     case 1:
 
-        Mathematics_Correct=+prompt("Riaziyyatda ne qeder doğru var?: ")
-        Mathematics_Wrong=+prompt("Riaziyyatda ne qeder Sehv var?: ")
+//         Mathematics_Correct=+prompt("Riaziyyatda ne qeder doğru var?: ")
+//         Mathematics_Wrong=+prompt("Riaziyyatda ne qeder Sehv var?: ")
        
 
-        AzeribajanLanguage_Correct=+prompt("Azeribaycan dilində ne qeder doğru var?: ")
-        AzeribajanLanguage_Wrong=+prompt("Azeribaycan dilində ne qeder sehv var?:  ")
+//         AzeribajanLanguage_Correct=+prompt("Azeribaycan dilində ne qeder doğru var?: ")
+//         AzeribajanLanguage_Wrong=+prompt("Azeribaycan dilində ne qeder sehv var?:  ")
 
-        ForeignLanguage_Correct=+prompt("Xarici dilində ne qeder doğru var?: ")
-        ForeignLanguage_Wrong=+prompt("Xarici dilində ne qeder sehv var?:  ")
+//         ForeignLanguage_Correct=+prompt("Xarici dilində ne qeder doğru var?: ")
+//         ForeignLanguage_Wrong=+prompt("Xarici dilində ne qeder sehv var?:  ")
 
-        let correct_Total=Mathematics_Correct+AzeribajanLanguage_Correct+ForeignLanguage_Correct
-        let wrong_Total=Mathematics_Wrong+AzeribajanLanguage_Wrong+ForeignLanguage_Wrong
-        let Left_CorrectToatal=correct_Total-(wrong_Total/2)
-        result=Left_CorrectToatal*3  
-        console.log(` əziz tələbə sizin balıniz bu qederdi: ${result}`)    
-        break;
+//         let correct_Total=Mathematics_Correct+AzeribajanLanguage_Correct+ForeignLanguage_Correct
+//         let wrong_Total=Mathematics_Wrong+AzeribajanLanguage_Wrong+ForeignLanguage_Wrong
+//         let Left_CorrectToatal=correct_Total-(wrong_Total/2)
+//         result=Left_CorrectToatal*3  
+//         console.log(` əziz tələbə sizin balıniz bu qederdi: ${result}`)    
+//         break;
     
-    case 2:
-        let LogOut=prompt("Sistemdən çxış etmək isteyirsinizmi hə/yox")
-        if(LogOut==="hə"){
-            console.log("Sistemdən çxış olunur....")
-        }else{   
-            Mathematics_Correct=+prompt("Riaziyyatda ne qeder doğru var?: ")
-            Mathematics_Wrong=+prompt("Riaziyyatda ne qeder Sehv var?: ")
+//     case 2:
+//         let LogOut=prompt("Sistemdən çxış etmək isteyirsinizmi hə/yox")
+//         if(LogOut==="hə"){
+//             console.log("Sistemdən çxış olunur....")
+//         }else{   
+//             Mathematics_Correct=+prompt("Riaziyyatda ne qeder doğru var?: ")
+//             Mathematics_Wrong=+prompt("Riaziyyatda ne qeder Sehv var?: ")
            
     
-            AzeribajanLanguage_Correct=+prompt("Azeribaycan dilində ne qeder doğru var?: ")
-            AzeribajanLanguage_Wrong=+prompt("Azeribaycan dilində ne qeder sehv var?:  ")
+//             AzeribajanLanguage_Correct=+prompt("Azeribaycan dilində ne qeder doğru var?: ")
+//             AzeribajanLanguage_Wrong=+prompt("Azeribaycan dilində ne qeder sehv var?:  ")
     
-            ForeignLanguage_Correct=+prompt("Xarici dilində ne qeder doğru var?: ")
-            ForeignLanguage_Wrong=+prompt("Xarici dilində ne qeder sehv var?:  ")
+//             ForeignLanguage_Correct=+prompt("Xarici dilində ne qeder doğru var?: ")
+//             ForeignLanguage_Wrong=+prompt("Xarici dilində ne qeder sehv var?:  ")
     
-            let correct_Total=Mathematics_Correct+AzeribajanLanguage_Correct+ForeignLanguage_Correct
-            let wrong_Total=Mathematics_Wrong+AzeribajanLanguage_Wrong+ForeignLanguage_Wrong
-            let Left_CorrectToatal=correct_Total-(wrong_Total/2)
-            result=Left_CorrectToatal*3  
-            console.log(` əziz tələbə sizin balıniz bu qederdi: ${result}`)
-        }
-    break;
+//             let correct_Total=Mathematics_Correct+AzeribajanLanguage_Correct+ForeignLanguage_Correct
+//             let wrong_Total=Mathematics_Wrong+AzeribajanLanguage_Wrong+ForeignLanguage_Wrong
+//             let Left_CorrectToatal=correct_Total-(wrong_Total/2)
+//             result=Left_CorrectToatal*3  
+//             console.log(` əziz tələbə sizin balıniz bu qederdi: ${result}`)
+//         }
+//     break;
     
-    default:
-        console.error("Əziz tələbə yanlış seçim etdiniz zehmet olmasa 1/2 ile reqem seçəsiniz!! ")
-        break;
-}
+//     default:
+//         console.error("Əziz tələbə yanlış seçim etdiniz zehmet olmasa 1/2 ile reqem seçəsiniz!! ")
+//         break;
+// }
+
+
+
+
+
+
+// loop task
+
+// task1
+
+// let sum=0;
+
+// for(let i=0; i<=100 ; i++){
+//     if(i % 2 == 0){
+//         sum+=i
+       
+        
+//     }
+// }
+
+// console.log(`even  numbers sum :${sum}`)
+
+
+
+
+
+
+// task2
+
+// let userinput=+prompt("pelase number enter")
+
+// let multiplication=1
+
+// for(let i=1; i<=userinput; i++){
+    
+//     multiplication*=i
+// }
+
+// console.log(`your write number :${userinput}  :${multiplication} number multiplication `)
+
+
+
+
+
+// task3
+
+
+// for(let i=100; i<=999 ; i++){
+//     if( i % 10==0){
+//         console.log(`last three numbers:${i}`)
+//     }
+
+// }
+
+
+// task 4
+
+
+
+// let userinputNumber=+prompt("number enter")
+
+
+// let sum=0
+
+// for(let i=100 ; i<=999;i++){
+//     if( i % userinputNumber === 0 ){
+//         sum+=i
+
+//     }
+   
+// }
+
+// console.log(`${userinputNumber} number three divide sum:${sum}  `)
+
+
+
+
+// task 5
+
+// let multiplication=1
+
+
+// for(let i=1; i<=100 ; i++){
+//     multiplication*=i
+   
+//     if(i>=30 && i<=40){
+//         continue
+//     }
+
+//     if( i%2==1){
+//         multiplication*=i
+//     }
+
+// }
+
+// console.log(`from 1 to 100 odd numbers multiply: ${multiplication} `)
+
+
+
+// task 6
+
+
+
+// let userinput=+prompt("Number enter")
+
+// for( let i=userinput; i>0; i--){
+//     if(i%2==1){
+//         console.log(i)
+//     }
+    
+// }
+
+
+// task 7
+
+
+// let userinputloopfirst=+prompt("Enter loop first number: ")
+// let userinputlooplast=+prompt("Enter loop last number: ")
+
+
+
+// for(let num=userinputloopfirst;num<=userinputlooplast;num++){
+//     if(num%2==1){
+//         console.log(num)
+//     }
+
+
+// } 
+
+
+
+// decriment
+
+// for(let num=userinputlooplast;num>=userinputloopfirst;num--){
+//     if(num%2==1){
+//         console.log(num)
+//     }
+
+    
+// } 
+
+
+
+// task 8
+
+
+
+
+
+// let compNumber=Math.round(Math.random()*50)
+// let randomnumber=+prompt("random number enter: ")
+// let gametry=1
+
+
+// while(randomnumber!==compNumber){
+//     randomnumber=+prompt("random number enter: ")
+//     if(randomnumber<compNumber){
+//         alert("upp",randomnumber)
+//         gametry++
+//     }else if(randomnumber>compNumber){
+//         alert("down",randomnumber)
+//         gametry++
+//     }else{
+//         console.log("your couldn find number",randomnumber,"this try you do: ",gametry)
+//     }
+// }
+
+
+
+/* 
+rock , paper , scissors 
+
+game
+
+*/
+
+
+// alert("Hello rock ,paper,scissors game welcome ");
+
+
+
+
+
+
+//   rock , paper , scissors game if
+
+
+// let keep_gaming=true
+
+// while(keep_gaming){
+
+//     let people_mind=prompt("rock ,paper,scissors which choose: ")
+
+//     let computer_Mind=Math.floor(Math.random()*3)
+
+// if(computer_Mind===0){
+//     computer_Mind="rock"
+// }else if(computer_Mind==1){
+//     computer_Mind="paper"
+// }else{
+//     computer_Mind="scissors"
+// }
+
+
+// console.log(`People mind: ${people_mind}`)
+
+// console.log(`Computer mind: ${computer_Mind}`)
+
+//     if(people_mind==computer_Mind){
+//         alert( ` I ts tie`)
+    
+//     }else if(people_mind==='rock' && computer_Mind==='paper'||
+//         people_mind==='rock' && computer_Mind==='scissors'||
+//         people_mind==='scissors' && computer_Mind==='paper'
+//     ){
+    
+//         alert("player winner")
+    
+        
+    
+//     }else{
+//         alert("Computer winner")
+
+//         let inputuser=prompt("try again yes/no ")
+//         if(inputuser=="yes"){
+//             people_mind=prompt("rock ,paper,scissors which choose:")
+//         }else{
+//             keep_gaming=false;
+//         }
+//     }
+    
+
+
+    
+// }
 
