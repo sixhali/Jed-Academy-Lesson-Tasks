@@ -1111,6 +1111,46 @@ game
 
 
 
+
+// task 17
+
+
+// let text=prompt("please text enter : ")
+// let letter=prompt("please just a letter enter: ")
+
+
+// function Istext(text,letter){
+//      let count = 0
+
+
+
+//      for(let i=0;i<text.length;i++){
+//         if(text[i]===letter){
+//             count++
+            
+
+//         }else{
+//          "not found letter"
+//         }
+//         return count
+//       }
+
+    
+// }
+
+
+
+// task 18
+
+
+// let isIntger=(value)=>{
+//     return Number.isInteger(value)
+// }
+
+// console.log(isIntger(2))
+
+// console.log(Istext(text,letter))
+
 // task 19
 
 // function expersion
@@ -1196,61 +1236,61 @@ game
 
 
 
-let oilCalc=() =>{
-    alert("Xos geldiniz SixhaliOil petroline ")
-    let gasoline =1.80 
-    let diesel=1.10
-    let gas=1
-    let result
-    while(true){
-        let oilchoose=prompt("1.benzin 2.dizel 3.gaz\n"+
-            "zehmet olmasa secminizi edin sadece reqmlerle secmizi edin")
-        switch (oilchoose) {
-            case "1":
-                let userAmount=+prompt("zehmet olmasa bütcəni daxil edin: ")
-                let gasolineinput = +prompt("zehmet olmasa benzin miqdarini yaziniz: ")
-                result=gasoline*gasolineinput
-                if (result<userAmount){
-                    alert(`sizin odənişniz uğurlu keçdi qalan pulunuz:  ${(userAmount-result).toFixed(2)}Azn`)
-                    return
-                }else{
-                    console.error(`sizin odənişniz uğursuz oldu qalan: ${(userAmount-result).toFixed(2)}Azn`)
+// let oilCalc=() =>{
+//     alert("Xos geldiniz SixhaliOil petroline ")
+//     let gasoline =1.80 
+//     let diesel=1.10
+//     let gas=1
+//     let result
+//     while(true){
+//         let oilchoose=prompt("1.benzin 2.dizel 3.gaz\n"+
+//             "zehmet olmasa secminizi edin sadece reqmlerle secmizi edin")
+//         switch (oilchoose) {
+//             case "1":
+//                 let userAmount=+prompt("zehmet olmasa bütcəni daxil edin: ")
+//                 let gasolineinput = +prompt("zehmet olmasa benzin miqdarini yaziniz: ")
+//                 result=gasoline*gasolineinput
+//                 if (result<userAmount){
+//                     alert(`sizin odənişniz uğurlu keçdi qalan pulunuz:  ${(userAmount-result).toFixed(2)}Azn`)
+//                     return
+//                 }else{
+//                     console.error(`sizin odənişniz uğursuz oldu qalan: ${(userAmount-result).toFixed(2)}Azn`)
     
-                }
-                break;
-            case "2":
-                let userAmountdisel=+prompt("zehmet olmasa bütcəni daxil edin: ")
-                let diselinput = +prompt("zehmet olmasa dizel miqdarini yaziniz: ")
-                result=diesel*diselinput
-                if (result<userAmountdisel){
-                    alert(`sizin odənişniz uğurlu keçdi qalan pulunuz:  ${userAmountdisel-result}Azn`)
-                    return
-                }else{
-                    console.error(`sizin odənişniz uğursuz oldu qalan: ${userAmountdisel-result}Azn`)
+//                 }
+//                 break;
+//             case "2":
+//                 let userAmountdisel=+prompt("zehmet olmasa bütcəni daxil edin: ")
+//                 let diselinput = +prompt("zehmet olmasa dizel miqdarini yaziniz: ")
+//                 result=diesel*diselinput
+//                 if (result<userAmountdisel){
+//                     alert(`sizin odənişniz uğurlu keçdi qalan pulunuz:  ${userAmountdisel-result}Azn`)
+//                     return
+//                 }else{
+//                     console.error(`sizin odənişniz uğursuz oldu qalan: ${userAmountdisel-result}Azn`)
     
-                }
-            break
-            case "3":
-                let userAmountgass=+prompt("zehmet olmasa bütcəni daxil edin: ")
-                let gassinput = +prompt("zehmet olmasa qaz miqdarini yaziniz: ")
-                result=gas*gassinput
-                if (result<userAmountgass){
-                    alert(`sizin odənişniz uğurlu keçdi qalan pulunuz:  ${userAmountgass-result}Azn`)
-                    return
-                }else{
-                    console.error(`sizin odənişniz uğursuz oldu qalan: ${userAmountgass-result}Azn`)
+//                 }
+//             break
+//             case "3":
+//                 let userAmountgass=+prompt("zehmet olmasa bütcəni daxil edin: ")
+//                 let gassinput = +prompt("zehmet olmasa qaz miqdarini yaziniz: ")
+//                 result=gas*gassinput
+//                 if (result<userAmountgass){
+//                     alert(`sizin odənişniz uğurlu keçdi qalan pulunuz:  ${userAmountgass-result}Azn`)
+//                     return
+//                 }else{
+//                     console.error(`sizin odənişniz uğursuz oldu qalan: ${userAmountgass-result}Azn`)
     
-                }
-            break
-            default:
-                console.log("siz duzgun secim etmediniz zhmet olmasa duzugun secim edesiniz!!")
-            break;
-        }
+//                 }
+//             break
+//             default:
+//                 console.log("siz duzgun secim etmediniz zhmet olmasa duzugun secim edesiniz!!")
+//             break;
+//         }
 
-    }
+//     }
 
-}                      
+// }                      
 
 
-oilCalc()
+// oilCalc()
 
