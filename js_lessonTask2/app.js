@@ -1027,12 +1027,9 @@ game
 //   }
 // };
 
-
 // console.log(isNum(usernum))
 
-
 // task 11
-
 
 // let IsPerfect = (num)=>{
 //     let total = 0
@@ -1051,31 +1048,28 @@ game
 // }
 // console.log(IsPerfect(6))
 
-
 // task 12
-
 
 // let userinputmoon=prompt("moon how money learing for enter:  ").toLowerCase()
 
-
 // function getMoonDay(moon){
 //     switch (moon) {
-//         case "january":  
+//         case "january":
 //         case "march":
-//         case "may":  
+//         case "may":
 //         case "july":
-//         case "august":  
+//         case "august":
 //         case "october":
-//         case "december":  
-//         return `${moon}:this moon 31 days` 
+//         case "december":
+//         return `${moon}:this moon 31 days`
 //         break;
 //         case 'april':
-//         case 'june': 
+//         case 'june':
 //         case 'september':
 //         case 'november':
-//         return `${moon}:this moon 30 days`   
+//         return `${moon}:this moon 30 days`
 //         case 'february':
-//             return `${moon}:this moon 28 or 29 days`   
+//             return `${moon}:this moon 28 or 29 days`
 //             break
 //         default:
 //             return `please correct  moon choose !`
@@ -1083,12 +1077,9 @@ game
 //     }
 // }
 
-
 // console.log(getMoonDay(userinputmoon))
 
-
 // task 13
-
 
 // let userinput_1=+prompt('first number enter: ')
 // let userinput_2=+prompt('second number enter: ')
@@ -1096,7 +1087,6 @@ game
 // let IsnumberAvreage=(num1,num2)=>{
 //     let mostbig=Math.max(num1,num2)
 //     console.log( `this number max number :${mostbig}`)
-
 
 //     if(num1%2==0 && num2%2==0)
 //         return `Average divide numbers : ${num1} and ${num2}`
@@ -1106,28 +1096,19 @@ game
 
 // }
 
-
 // console.log(IsnumberAvreage(userinput_1,userinput_2))
 
-
-
-
 // task 17
-
 
 // let text=prompt("please text enter : ")
 // let letter=prompt("please just a letter enter: ")
 
-
 // function Istext(text,letter){
 //      let count = 0
-
-
 
 //      for(let i=0;i<text.length;i++){
 //         if(text[i]===letter){
 //             count++
-            
 
 //         }else{
 //          "not found letter"
@@ -1135,13 +1116,9 @@ game
 //         return count
 //       }
 
-    
 // }
 
-
-
 // task 18
-
 
 // let isIntger=(value)=>{
 //     return Number.isInteger(value)
@@ -1155,10 +1132,7 @@ game
 
 // function expersion
 
-
 // let userinput=+prompt("number enter: ")
-
-
 
 // let sumDigit=function(number){
 
@@ -1166,43 +1140,31 @@ game
 //         "please three digits enter"
 //         userinput=+prompt("again three number enter: ")
 //         number=userinput
-        
+
 //     }
 
-   
 //     return `valid three number:${number}`
-
-   
 
 // }
 
-
-
 // console.log(sumDigit(userinput))
-
 
 // function arow
 
-
 // let userinput=+prompt("number enter: ")
-
-
 
 // let sumDigit=(number)=>{
 //     while(true){
- 
 
 //         if(number<100 || number>999){
 //           "please three digits enter"
 //           userinput=+prompt("again three number enter: ")
 //           number=userinput
-          
+
 //         }else{
 //             break
 //         }
-        
-   
-    
+
 //     }
 
 //     let digits = number.toString().split('').map(Number);
@@ -1214,15 +1176,9 @@ game
 
 //     return `Sum of digits of ${number}: ${sum}`;
 
-
 // }
 
-
-
 // console.log(sumDigit(userinput))
-
-
-
 
 /* 
  benzin:1.80
@@ -1231,14 +1187,9 @@ game
 
 */
 
-
-
-
-
-
 // let oilCalc=() =>{
 //     alert("Xos geldiniz SixhaliOil petroline ")
-//     let gasoline =1.80 
+//     let gasoline =1.80
 //     let diesel=1.10
 //     let gas=1
 //     let result
@@ -1255,7 +1206,7 @@ game
 //                     return
 //                 }else{
 //                     console.error(`sizin odənişniz uğursuz oldu qalan: ${(userAmount-result).toFixed(2)}Azn`)
-    
+
 //                 }
 //                 break;
 //             case "2":
@@ -1267,7 +1218,7 @@ game
 //                     return
 //                 }else{
 //                     console.error(`sizin odənişniz uğursuz oldu qalan: ${userAmountdisel-result}Azn`)
-    
+
 //                 }
 //             break
 //             case "3":
@@ -1279,7 +1230,7 @@ game
 //                     return
 //                 }else{
 //                     console.error(`sizin odənişniz uğursuz oldu qalan: ${userAmountgass-result}Azn`)
-    
+
 //                 }
 //             break
 //             default:
@@ -1289,8 +1240,305 @@ game
 
 //     }
 
-// }                      
-
+// }
 
 // oilCalc()
 
+// let day=+prompt("please day enter but 1 to 7 number choose:  ")
+
+// switch (day) {
+//     case 1:
+//         console.log("monday")
+
+//     break;
+//     case 2:
+//         console.log("Tuesday")
+
+//     break;
+//     case 3:
+//         console.log("Wednesday")
+
+//     break;
+//     case 4:
+//         console.log("Thursday")
+
+//     break;
+//     case 5:
+//         console.log("Friday")
+
+//     break;
+//     case 6:
+//         console.log("Saturday")
+
+//     break;
+//     case 7:
+//         console.log("Sunday")
+
+//     break;
+//     default:
+//         console.error("not found day ")
+//         break;
+// }
+
+// const CheckIsPrime = (num)=>{
+//     if (num % 2 == 0){
+//         return`this number even :${num}`
+//     }else {
+//         return`this number odd :${num}`
+
+//     }
+
+// }
+
+// console.log(CheckIsPrime(7))
+
+// const oneTohundred=(num)=>{
+//     for (let i=1;i<= num;i++){
+//         console.log(`this ${i} to ${num}`)
+
+//     }
+
+// }
+
+// oneTohundred(100)
+
+// let operand_1 = +prompt("first operand enter: ")
+// let operator = prompt("operator enter( + , - , * , / , % , **:) ")
+// let operand_2 = +prompt("second operand enter: ")
+
+// const calculate=(n1,o,n2) => {
+//     switch (o){
+//         case "+":
+//             return `${n1} + ${n2} = ${n1+n2}`
+//         case "-":
+//             return `${n1} - ${n2} = ${n1-n2}`
+//         case "*":
+//             return `${n1} * ${n2} = ${n1*n2}`
+//         case "/":
+//             return `${n1} / ${n2} = ${n1/n2}`
+//         case "%":
+//             return `${n1} % ${n2} = ${n1%n2}`
+//         case "**":
+//              return `${n1} ** ${n2} = ${n1**n2}`
+//         default:
+//             return `please correct opartor choose`
+//     }
+
+// }
+
+// console.log(calculate(operand_1,operator,operand_2))
+
+// let a  = "salam"
+// let reversed=''
+
+// for (let i = a.length - 1; i >= 0; i--) {
+//     reversed += a[i];
+// }
+
+// console.log(reversed)
+
+// let a = 10
+// console.log(a++); //10
+// ++a
+// console.log(a++);//
+// console.log(a); //13
+
+// Library-book App
+
+// let book_1 = {
+//   Bookname: "Suç ve Ceza",
+//   Author: "Fyodor Dostoyevski",
+//   price: "15azn",
+//   Raf: "1.5 raf",
+// };
+// let book_2 = {
+//   Bookname: "Bülbülü Öldürmek",
+//   Author: "Harper Lee",
+//   price: "10azn",
+//   Raf: "2.3 raf",
+// };
+// let book_3 = {
+//   Bookname: "1984",
+//   Author: "George Orwell",
+//   price: "8azn",
+//   Raf: "2.8 raf ",
+// };
+// let book_4 = {
+//   Bookname: "Kürk Mantolu Madonna",
+//   Author: "Sabahattin Ali",
+//   price: "22azn",
+//   Raf: "3.3 raf",
+// };
+// let book_5 = {
+//   Bookname: "Yüzyıllık Yalnızlık",
+//   Author: "Gabriel Garcia Marquez",
+//   price: "30azn",
+//   Raf: "3.8 raf ",
+// };
+
+// let books = [book_1, book_2, book_3, book_4, book_5];
+
+// let BookRaf11 = {
+//   code: "1.1",
+//   show: false,
+// };
+// let BookRaf12 = {
+//   code: "1.2",
+//   show: false,
+// };
+// let BookRaf13 = {
+//   code: "1.3",
+//   show: false,
+// };
+// let BookRaf14 = {
+//   code: "1.4",
+//   show: false,
+// };
+// let BookRaf15 = {
+//   code: "1.5",
+//   show: false,
+// };
+
+// let BookRaf21 = {
+//   code: "2.1",
+//   show: false,
+// };
+// let BookRaf22 = {
+//   code: "2.2",
+//   show: false,
+// };
+// let BookRaf23 = {
+//   code: "2.3",
+//   show: false,
+// };
+// let BookRaf24 = {
+//   code: "2.4",
+//   show: false,
+// };
+// let BookRaf25 = {
+//   code: "2.5",
+//   show: false,
+// };
+
+// let BookRaf31 = {
+//   code: "3.1",
+//   show: false,
+// };
+// let BookRaf32 = {
+//   code: "3.2",
+//   show: false,
+// };
+// let BookRaf33 = {
+//   code: "3.3",
+//   show: false,
+// };
+// let BookRaf34 = {
+//   code: "3.4",
+//   show: false,
+// };
+// let BookRaf35 = {
+//   code: "3.5",
+//   show: false,
+// };
+
+// let BookRaf41 = {
+//   code: "4.1",
+//   show: false,
+// };
+// let BookRaf42 = {
+//   code: "4.2",
+//   show: false,
+// };
+// let BookRaf43 = {
+//   code: "4.3",
+//   show: false,
+// };
+// let BookRaf44 = {
+//   code: "4.4",
+//   show: false,
+// };
+// let BookRaf45 = {
+//   code: "4.5",
+//   show: false,
+// };
+
+// let BookRaf51 = {
+//   code: "5.1",
+//   show: false,
+// };
+// let BookRaf52 = {
+//   code: "5.2",
+//   show: false,
+// };
+// let BookRaf53 = {
+//   code: "5.3",
+//   show: false,
+// };
+// let BookRaf54 = {
+//   code: "5.4",
+//   show: false,
+// };
+// let BookRaf55 = {
+//   code: "5.5",
+//   show: false,
+// };
+
+// let BookRafs = [
+//   [BookRaf51, BookRaf52, BookRaf53, BookRaf54, BookRaf55],
+//   [BookRaf41, BookRaf42, BookRaf43, BookRaf44, BookRaf45],
+//   [BookRaf31, BookRaf32, BookRaf33, BookRaf34, BookRaf35],
+//   [BookRaf21, BookRaf22, BookRaf23, BookRaf24, BookRaf25],
+//   [BookRaf11, BookRaf12, BookRaf13, BookRaf14, BookRaf15],
+// ];
+
+// const bookRafCreate = () => {
+//   console.clear()
+//   let line = "";
+//   for (let i = 0; i < BookRafs.length; i++) {
+//     for (let j = 0; j < 5; j++) {
+//       line += "|" + (BookRafs[i][j].show ? BookRafs[i][j].code : "---");
+//     }
+//     console.log(line);
+//     console.log("--------------------");
+//     line = "";
+//   }
+// };
+
+// const codeSearch = (bookname) => {
+//   let rafcode = null;
+//   books.forEach(function (book) {
+//     if (book.Bookname.toUpperCase().includes(bookname.toUpperCase(), 0)) {
+//       console.log(book.Raf)
+//       rafcode=book.Raf;
+//     }
+//   });
+//   return rafcode;
+// };
+
+// const rafShow = (rafcode) => {
+//   for (let i = 0; i < BookRafs.length; i++) {
+//     for (let j = 0; j < 5; j++) {
+//       if (BookRafs[i][j].code === rafcode) {
+//         BookRafs[i][j].show = true;
+//         break;
+//       }
+//     }
+//   }
+// };
+
+// while (true) {
+//   let inputBook = prompt("Book Name enter: ");
+//   let rafcodee = codeSearch(inputBook);
+
+//   if (rafcodee != null) {
+//     rafShow(rafcodee);
+//     bookRafCreate();
+//     break;
+//   } else {
+//     alert(
+//       `you entereded book library not found this library just this book have:${book_1.Bookname},${book_2.Bookname},${book_3.Bookname},${book_4.Bookname} ,${book_5.Bookname}`
+//     );
+//   }
+// }
+
+// bookRafCreate();
