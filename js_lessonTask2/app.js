@@ -1542,3 +1542,156 @@ game
 // }
 
 // bookRafCreate();
+
+
+
+// object and oop
+
+
+// task1
+
+// let user={
+//     name:"sixhali",
+//     gender:"male",
+//     birthday:"2002.03.12"
+// }
+
+
+// console.log(user.name)
+// console.log(user.gender)
+// console.log(user.birthday)
+
+
+
+// task 2
+
+
+// let user={
+//     name:"sixhali",
+//     gender:"male",
+//     birthday:"2002.03.12"
+// }
+
+
+// let Currenet_date=new Date();
+// let Currenet_year=Currenet_date.getFullYear();
+
+// let birthday=new Date(user.birthday).getFullYear()
+
+
+// let birthyear=Currenet_year-birthday
+
+
+// user.birthday=birthyear
+
+// delete user.birthday
+
+// console.log(user.birthday)
+
+// task3
+
+// let Pension = {
+//     setAge: function(agechange) {
+//         this.age = agechange;
+//     },
+
+//     getYearsBeforeRetirement: function() {
+//         const retirementAge = 63;
+//         let yearsleft = retirementAge - this.age;
+
+//         if (this.age >= retirementAge) {
+//             console.log("You are already of pension age.");
+//             return 0;
+//         } else {
+//             console.log("You are still young.");
+//             return yearsleft;
+//         }
+//     }
+// };
+
+// let pensioninputname = prompt("Enter your name:");
+// let pensioninputgender = prompt("Enter your gender:");
+// let pensioninputAge = +prompt("Enter your age:");
+
+// let userInformation = {
+//     name: pensioninputname,
+//     gender: pensioninputgender,
+//     age: pensioninputAge,
+//     setAge: Pension.setAge,
+//     getYearsBeforeRetirement: Pension.getYearsBeforeRetirement
+// };
+
+// userInformation.setAge(userInformation.age);
+
+// let beforeyearscalc = userInformation.getYearsBeforeRetirement();
+
+// console.log(userInformation);
+// console.log(`Years before retirement: ${beforeyearscalc}`);
+
+
+// task 4
+
+// calc 1
+
+
+
+// let operand1=+prompt("enter operand 1: ")
+// let opartor=prompt("enter operator: ")
+// let operan2=+prompt("enter operand 2: ")
+// let result
+
+// let calculate = {
+//     calculatestart:function(n1,o,n2){
+//         if(o=='+'){
+//            result=n1+n2
+//            return `${n1} + ${n2}=${result}`
+//         }else if(o == '-'){
+//             result=n1-n2
+//             return `${n1} - ${n2}=${result}`
+//         }else if(o == '*'){
+//             result=n1*n2
+//             return `${n1} * ${n2}=${result}`
+//         }else if(o == '/'){
+//             result=n1/n2
+//             return `${n1} / ${n2}=${result}`
+//         }else if(o == '**'){
+//             result=n1**n2
+//             return `${n1} * ${n2}=${result}`
+//         }
+//     }
+// }
+
+
+// console.log(calculate.calculatestart(operand1,opartor,operan2))
+
+
+// calc 2
+
+// let operand1=+prompt("enter operand 1: ")
+// let operand2=+prompt("enter operand 2: ")
+// let result
+
+// let calculate={
+//     add:(num1,num2)=>{
+//         result=num1+num2;
+//         return `${num1}+${num2}=${result}`
+//     },
+//     additon:(num1,num2)=>{
+//         result=num1-num2;
+//         return `${num1}-${num2}=${result}`
+//     },
+//     Multiplication:(num1,num2)=>{
+//         result=num1*num2;
+//         return `${num1}*${num2}=${result}`
+//     },
+//     divide:(num1,num2)=>{
+//         result=num1/num2;
+//         return `${num1}/${num2}=${result}`
+//     }
+// }
+
+
+// console.log(calculate.add(operand1,operand2))
+// console.log(calculate.additon(operand1,operand2))
+// console.log(calculate.Multiplication(operand1,operand2))
+// console.log(calculate.divide(operand1,operand2))
