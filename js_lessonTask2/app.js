@@ -1695,3 +1695,504 @@ game
 // console.log(calculate.additon(operand1,operand2))
 // console.log(calculate.Multiplication(operand1,operand2))
 // console.log(calculate.divide(operand1,operand2))
+
+
+// string-methods
+
+
+// task 1
+
+
+
+
+// function change(string,character ){
+//     return character.repeat(string.length)
+
+
+// }
+
+
+// console.log(change("sixhali","s"))
+
+
+
+// task 2
+
+// function speaceText(text){
+//     return text.replace(/ /g,'')
+// }
+
+
+// console.log(speaceText('Lorem ipsum dolar sit').toUpperCase())
+
+
+
+// task 3
+
+// function text(str){
+//     return str.replace(/ /g,'')
+// }
+
+// console.log(text("A beautiful game").length)
+
+
+
+// task 4
+
+
+//ragex with
+
+
+// let userinput= prompt("Name SURNAME enter: ")
+
+
+// let change = (user)=>{
+//     return user.replace(/(\w+)\s+(\w+)/, '$2 $1')
+// }
+// console.log(change(userinput))
+
+
+// second way
+
+
+// let userinput= prompt("Name SURNAME enter: ")
+
+
+// let change = (user)=>{
+//     let nameusernamechange=user.split(' ')
+
+//     if(nameusernamechange.length!==2){
+//         return `wrong format correct format this hapnes (name sourname):${nameusernamechange}`
+//     }else{
+//     return `correct format:${nameusernamechange[1]} ${nameusernamechange[0]} `
+//     }
+
+    
+// }
+// console.log(change(userinput))
+
+// task5
+
+
+
+// let priceinput= prompt("xais olunur 000.00 azn formatda daxil edin")
+
+
+// let formatPrice = (price)=>{
+
+//     let priceArr=price.split('.')
+//     console.log(priceArr)
+
+//     if(priceArr.length !==2){
+//         return `xais olunur duzgun foramtda daxil edin- 000.00  `
+//     }else{
+//         let manat=priceArr[0]
+//         let penny=priceArr[1]
+    
+//         if (penny.length !==2){
+//            return `xais olunur qepik formatin 2 eded ile yaziniz`
+           
+//         }else{
+//             return `${manat} manat ${penny} qepik`
+//         }
+
+//     }
+
+
+
+// }
+// console.log(formatPrice(priceinput));
+
+
+// task 6
+
+// just one word capitalize
+
+// function capitalize(str){
+//     if(str == 0){
+//         return str
+//     }else{
+//         let firstChar = str.charAt(0).toUpperCase()
+//         let leftletter=str.slice(1).toLowerCase()
+//         let unfication= firstChar + leftletter
+
+//         return unfication;
+//     }
+// }
+
+
+// console.log(capitalize(''));
+
+
+// money word capitalize
+
+
+// function capitalize(str){
+//     if(str === 0){
+//         return str
+//     }else{
+//         return str.split(' ').map(word=>word.charAt(0).toUpperCase()+word.slice(1).toLowerCase()).join(' ')
+//     }
+// }
+
+
+// console.log(capitalize("muhHaMMed saLLah"));
+
+
+// task 7
+
+
+// let emailinput = prompt("please enter your email address:  ")
+
+// let checkIsEmail=function(email){
+//     let emailragex=/^[^\s@]+@[^\s@]+\.[^\s@]+$/
+
+//     return emailragex.test(email)
+// } 
+
+
+// console.log(checkIsEmail(emailinput))
+
+
+
+
+// task 8 
+
+
+// function usertwonumber(){
+//     let number = +prompt("two number enter: ")
+//     while(number<100){
+//         number = +prompt("two number enter: ")
+//         number+=7
+//         alert(number)
+//         if(number>=100){
+//             break
+//         }
+        
+//     }
+//     return number
+
+// }
+
+// console.log(usertwonumber());
+
+
+
+// task 9
+
+// let userinputask= +prompt("Number enter: ")
+
+// function userinputPrint(N){
+//     for(let i = 0 ; i < N ; i++){
+//         console.log(`I know how to use cycles`);
+//     }
+// }
+
+// userinputPrint(userinputask)
+
+
+
+// task 10
+
+
+// let userInput=prompt("NAME SOURNAME ENTER: ")
+
+
+// function nameSournameFormat(user){
+//     let userformat=user.split(" ")
+
+//     if(userformat.length!==2){
+//         return `just Name SourName write`
+//     }else{
+//         return `SourName: ${userformat[0]} Name: ${userformat[1]} `
+//     }
+// }
+
+
+// console.log(nameSournameFormat(userInput));
+
+
+
+// task 11
+
+
+
+// boolean with check
+// let phoneNumber=prompt("enter phone number: ")
+
+
+
+// let isvalidnumber=function(phoneNumber){
+    
+
+//return phoneNumber.length===11 && phoneNumber.startsWith('+7')
+
+// }
+  
+// console.log(isvalidnumber(phoneNumber));
+
+
+// 2-way if else
+
+
+// let phoneNumber=prompt("enter phone number: ")
+
+
+
+// let isvalidnumber=function(phoneNumber){
+    
+//  if(phoneNumber.length===11 && phoneNumber.startsWith('+7')){
+//     console.log("duzgun dormatda ")  
+//  }else{
+//     console.log("sehv fotmatda");
+//  }
+
+// }
+
+// isvalidnumber(phoneNumber)
+
+
+
+// task 12 
+
+
+// function isNumberback(number){
+//     let numbers=number.match(/\d+/g)
+
+
+//     if(numbers==null){
+//         return ''
+//     }
+//     return numbers.join('-')
+
+
+// }
+
+// console.log(isNumberback('123az34fg5g7'));
+
+
+
+// task 13
+
+
+
+// function isLogicalOperator(str){
+//     let deletelogical=str.replace(/!/g,'')
+//     console.log(`deleted : ${deletelogical}`);
+//     let endAdd=deletelogical + '!'
+//     return `adding ${endAdd}`
+// }
+
+
+// console.log(isLogicalOperator('123!az!bg'))
+
+
+
+// task 14
+
+
+
+// function isUppertext(str){
+//     let upperletter=str.charAt(0).toUpperCase()
+//     let lowertext=str.slice(1).toLowerCase()   
+//     let textAdd=upperletter+lowertext
+//     return textAdd
+// }
+
+// console.log(isUppertext('azerbaijan'));
+
+// task 15
+
+
+// function isUppertext(str){
+//     let upperletter=str.toUpperCase()
+//     return upperletter
+// }
+
+
+// console.log(isUppertext('azerbaijan'));
+
+// task 16
+
+
+// function isLowertext(str){
+//     let lowerletter=str.toLowerCase()
+//     return lowerletter
+// }
+
+
+// console.log(isLowertext('azerbaijan'));
+
+
+// task 17
+
+// function firstCharacter(word,firstLatter){
+//     if(word.length === 0 || firstLatter === 0){
+//         return ' '
+//     }else{
+//         return firstLatter + word.slice(1)
+//     }
+
+// }
+
+// console.log(firstCharacter('qara','y'));
+
+
+// task 18 
+
+
+// function nameFormate(str){
+//     let nameSourname=str.trim().split(' ')
+
+//     if(nameSourname<2){
+//         return ' '
+//     }
+
+//     let name=nameSourname[0]
+//     let sourName=nameSourname[1]
+
+//     let fortmatname=`${name.charAt(0).toUpperCase()}.${sourName.charAt(0).toUpperCase()}${sourName.slice(1)}`
+
+//     return fortmatname
+// }
+
+// console.log(nameFormate('sixhali guliyev '));
+
+
+
+
+// mind testing
+
+
+// let infermation=alert("✨Salam xoş gəldiniz zeka tetbiqine size 1 ile 2 rəqəmləri seçim ediniz😉")
+
+
+
+
+// function mindTest(){
+//     let mindTestChoice=+prompt("1.zekanı test et\n"+
+//         "2.zeka test tetbiqinde çıxmaq ")
+//         let keep_gaming =true
+//         while(keep_gaming){
+//             let test1;
+//             let test2;
+//             let test3;
+//             let test4;
+//             let test5;
+//             let result=1;
+//             let correctanswer=5
+//             let wronganswer =2
+//             switch (mindTestChoice) {
+//                 case 1:
+//                     alert(`indi sizə 1-den 5 qeder sual verilcek siz o suali yazandan sonra zekaniz yoxlanacaq ve zekaninz ne qeder %-iz oldugunu bileceksiniz
+//                           ve her dogru suala 5 bal verir yanlış cavaba ise 2 bal bolunur `)
+//                     alert("Məntiqi sual olacaq diqqetli baxin ve cavabi yazin 😎")
+        
+        
+//                     // 1-nci sual
+//                     test1= +prompt("1.nci sual : Aşağıdakı ardıcıllıqda növbəti rəqəm hansıdır 2, 4, 8, 16, ...?: ")
+//                     if(test1===32){
+//                         console.log(`siz cavabi doğru tapdınız cavab:32 `);
+//                         result *=correctanswer
+//                         alert(`size ${correctanswer} bal eklendi`)
+//                     }else{
+//                         console.log(`siz cavabi yanlış tapdınız sizin eskildi${wronganswer}😐😞`);
+//                         result /= wronganswer
+        
+//                     }
+        
+//                     // 2-nci sual
+        
+//                     test2 = prompt("2.nci sual : İki rəqəmin cəmi 12-dir. Bu rəqəmlərin kvadratlarının cəmi 74-dür. Bu rəqəmlər hansılardır?: ").trim().toLowerCase() 
+//                     if(test2==="5 ve 7"){
+//                         console.log(`siz  cavabi doğru tapdınız tebrikler  cavab: 5 ve 7 `);
+//                         result *= correctanswer
+//                         alert(`size ${correctanswer} bal eklendi`)
+//                     }else{
+//                         console.log(`siz cavabi yanlış tapdınız😐😞`);
+//                         result /= wronganswer
+//                     }
+        
+//                     // 3-ncu sual
+        
+//                     test3 = prompt("3.nci sual : Sual: Kitab əlaqəsi Qələm:? əlaqəsi ilə oxşardır.?:  ").trim().toLowerCase()
+//                     if(test3==="yazıçı"){
+//                         console.log(`siz cavabi doğru tapdınız tebrikler  cavab: yazıçı`);
+//                         result *= correctanswer
+//                         alert(`size ${correctanswer} bal eklendi`)
+//                     }else{
+//                         console.log(`siz cavabi yanlış tapdınız😐😞`);
+//                         result /= wronganswer
+//                     }
+        
+//                     // 4-ncu sual
+        
+        
+//                     test4 = prompt(`4.nci sual : Sual: Aşağıdakı sözlərdən hansısı cəsur sözünün sinonimidir?: 
+//                         A) Qorxaq
+//                         B) Cəsur
+//                         C) Gücsüz
+//                         D) Ədalətli`).toUpperCase()
+        
+//                     if(test4 === "B"){
+//                       console.log(`siz cavabi doğru tapdınız tebrikler  cavab: B-varinatidir `);
+//                       result *= correctanswer
+//                       alert(`size ${correctanswer} bal eklendi`)
+//                     }else{
+//                         console.log(`siz cavabi yanlış tapdınız😐😞`);
+//                          result /= wronganswer
+//                     }
+                     
+        
+//                     // 5-ncu sual
+        
+//                     alert(`artiq siz sonuncu sualdasiniz ve diqqetli şəkilde baxin cavabinizi yazin bu sual sadece yazi ile yazin😏`)
+//                     test5 = prompt(`5.nci sual : Sual: "Qırmızı evin yanında mavi ev var. Mavi evin yanında yaşıl ev var. Yaşıl evin arxasında sarı ev var. Sarı evin sağında ağ ev var." Su: Ağ ev haradadır?: `).toLowerCase()
+//                     if(test5==="sarı evin sağında"){
+//                         console.log(`siz cavabi doğru tapdınız tebrikler  cavab: sarı evin sağında`);
+//                         result *= correctanswer
+//                         alert(`size ${correctanswer} bal eklendi`)
+//                     }else{
+//                         console.log(`siz cavabi yanlış tapdınız😐😞`);
+//                         result /= wronganswer
+//                     }
+//                     alert(`sizin zekaniz bu qederdi: %${result}`)
+//                     if(result <= 100){
+//                         alert(`sizin zekaniz yoxdur😧`)
+//                     }else if(result<=150){
+//                         alert("sizin zekaniz ortda derecden asagdi😐")
+//                     }else if(result>500){
+//                         alert("sizin zekaniz orta derceden ust derecedir🙂")
+//                     }else if(result<=1000){
+//                         alert("siz zekali insansiz beynviz yaxsi isleyir😉")
+//                     }else{
+//                         alert("sizin beynviz Albert Einstein beyni qederdi yani ustderecden yuksek derecedir😎🤗")
+//                     }
+//                     mindTestChoice=+prompt("1.zekanı test et\n"+
+//                         "2.zeka test tetbiqinde çıxmaq ")   
+
+                    
+//                     break;
+//                 case 2:
+//                     let keep_gaminginput=prompt("zeka testinzi tekar yoxlamaq isdeyirsinizmi: hə/yox")
+//                     if(keep_gaminginput=="yox"){
+//                         console.log(`siz zeka tesdinden çxdınız size heyyatda başarı ve qazanc elde etmek uguru arzu edirik😉🤗`);
+//                      keep_gaming = false
+                        
+//                     }else{
+//                         alert("tekrar xos geldiniz🥳🤠 indi size test tekar edilecek🙂🤗")
+//                         mindTestChoice=+prompt("1.zekanı test et\n"+
+//                             "2.zeka test tetbiqinde çıxmaq ")
+//                     }
+//                 break
+//                 default:
+//                     console.log("yanlış seçim zekalı insan doğru seçim eder 😎😃"); 
+//                     mindTestChoice=+prompt("1.zekanı test et\n"+
+//                         "2.zeka test tetbiqinde çıxmaq ")   
+//                 break        
+//             }
+//         }
+// }        
+
+
+// mindTest()
