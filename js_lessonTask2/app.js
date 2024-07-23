@@ -2196,3 +2196,119 @@ game
 
 
 // mindTest()
+
+
+
+// const reversetext =(str)=>{
+//     let reversed=' '
+//     for(let i=str.length - 1; i>=0;i--){
+//         reversed+=str[i]
+//     }
+//     return reversed ;
+
+// }
+
+// console.log(reversetext('sixhali'));
+
+
+// let person = { name: "Ali", age: 25 };
+// for (let key in person) {
+//     console.log(key + ": " + person[key]);
+// }
+
+
+// const students=['sixhali','akbar','ramin','admin','samir','xanaga','dindar']
+
+
+// const reversetext =(arr)=>{
+//     let reversed='-'
+
+//     for(let i=arr.length - 1; i>=0;i--){
+//         reversed+=arr[i]
+//     }
+//     return reversed ;
+
+// }
+
+// console.log(reversetext(students));
+
+
+
+// array tasks
+
+
+
+
+// task 1
+
+
+
+// let groupTeam = ['mahir','zamin','cebrayil']
+
+
+// groupTeam.push('agakisi');
+// console.log('After adding a team member:', groupTeam);
+
+// groupTeam.pop()
+// console.log('deleted team member',groupTeam);
+
+
+// task 2
+
+
+// let groupTeam = ['mahir','zamin','cebrayil']
+
+
+// let replacearr=(arr)=>{
+
+//     arr.splice(1,1,'Classified')
+//     return arr
+
+// }
+
+
+
+// console.log(replacearr(groupTeam));
+
+
+//task 3
+
+
+// let newHope=['New Hope', 'The Empire Strikes Back', 'Return of the Jedi']
+// let text=4
+// for(let i=0;i<newHope.length;i++){ 
+//     console.log(`Episode ${text}: ${newHope[i]}`);
+//     text++
+// }
+
+
+// task 4
+
+// let arr=[]
+
+
+// let userinput=prompt("enter separated five  number : ")
+
+
+// let kepparr = userinput.split(' ').map(Number);
+
+// for(let i=0;i<kepparr.length;i++){
+//     arr.push(kepparr[i]);
+//     Math.max(...userinput)
+// }
+
+// console.log(arr);
+
+
+// let maxNumber=Math.max(...kepparr)
+// console.log(`max number: ${maxNumber}`);
+
+
+// task 5
+
+// let arr=['32, 31, 34, 36, 31']
+
+// let apart=arr[0].split(',').join(' ; ')
+
+
+// console.log(apart);
