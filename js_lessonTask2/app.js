@@ -2294,7 +2294,6 @@ game
 
 // for(let i=0;i<kepparr.length;i++){
 //     arr.push(kepparr[i]);
-//     Math.max(...userinput)
 // }
 
 // console.log(arr);
@@ -2312,3 +2311,6 @@ game
 
 
 // console.log(apart);
+
+
+
