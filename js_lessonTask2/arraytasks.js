@@ -1,103 +1,164 @@
-// let arr = [10, 5, 0, 12, -1, 11];
+// let arr =[2,4,7,8,10,11]
 
-// arr.forEach(element => {
-//     if(element<0){
-//         console.log(`this negative number is ${element}`);
-//     }else if (element==0){
-//         console.log(`this number zero equal ${element}`);
-//     }else{
-//         console.log(`this number pozitive  ${element}`);
 
+// let evendivides = arr.map((even)=> even % 2 == 0)
+
+
+// console.log(evendivides);
+
+
+// let arr =[2,4,7,8,10,11]
+
+
+// let evendivides = arr.filter((even)=> even % 2 == 0)
+
+
+// console.log(evendivides);
+
+
+// let a=[2,6,3,34,10,7,36]
+
+
+
+// a.forEach(big=>{
+//     if(big>=6){
+//         console.log(big);
 //     }
-// });
+// })
+
 
 // task 1
 
-// let arr_1 = [12,13,15,5,6,8,9,10]
-// let arr_2 = [12,13,3,0,4,1,9,2]
 
-// let arr_unification =  arr_1.concat(arr_2)
+// let arr_1= [1,2,6,7,10,13,3]
+// let arr_2= [1,2,3,0,19,13,3]
 
-// let uniqueElments=new Set()
 
-// let arr=[]
-// arr_unification.forEach(element => {
-//     if(!uniqueElments.has(element)){
-//         uniqueElments.add(element);
-//     }
-//     arr.push(element);
 
-// })
+// let repeatingElementsdelete=(arr_1, arr_2)=>{
 
-// console.log(arr);
+//     let result = []
+
+//     arr_1.forEach(element=>{
+//         if(!arr_2.includes(element)){
+//           result.push(element);
+        
+//         }
+
+//     })
+
+//     arr_2.forEach(element=>{
+//         if(!arr_1.includes(element)){
+//          result.push(element);
+        
+//         }
+   
+      
+//     })
+    
+
+//     console.log(result);
+    
+
+
+
+
+    
+// }
+
+
+// repeatingElementsdelete(arr_1,arr_2)
+
 
 // task 2
 
-// let arr_1 = [12,13,15,5,6,8,9,10]
-// let arr_2 = [12,13,3,0,4,1,9,2]
 
-// let arr_2Set=new Set(arr_2)
+// let arr_1= [1,2,6,7,10,13,3]
+// let arr_2= [1,2,3,0,19,13,3]
 
-// let uniqueElmentsfilter=arr_1.filter(element => !arr_2Set.has(element))
 
-// console.log(uniqueElmentsfilter);
 
-// task 3
+// let arr_apart=(arr_1 , arr_2 )=>{
+//     let justfirstarrwrite = []
+    
+//     arr_1.forEach(element=>{
+//         if(!arr_2.includes(element)){
+//             justfirstarrwrite.push(element);
 
-// let array = [1, 6, 34, 5, 1, -4, 54, 76, 23, 65, 3, 50, 45, 100, 2346, -52, 6545, 0, 45, 22,];
-
-// let arr=[]
-
-// let sortArray=()=>{
-//     let data = array.sort((a,b)=>a-b)
-
-//     data.map(element=>{
-//         arr.push(element)
-//         return arr
+//         }
 //     })
-// }
 
-// sortArray()
-
-// console.log(arr);
-
-// task 4
-
-// let arr = [10, -5, -0, 12, -1, 11];
-
-// arr.map(element=>{
-//     if(element<0){
-//         console.log("negative: ",element);
-//     }else{
-//         console.log("poztive",element);
-//     }
-// })
-
-// task 5
-
-// let kebabToUpper =(Kebabcase)=>{
-
-//    return Kebabcase.split(' ').join('-').toUpperCase()
+//     return justfirstarrwrite
 
 // }
 
-// console.log(kebabToUpper('zaman alici ile mesguldur'))
+
+// console.log(arr_apart(arr_1,arr_2));
+
+
+
+// task 3 
+
+// let array = [1, 6, 34, 5, 1, -4, 54, 76, 23, 65, 3, 50, 45, 100, 2346, -52, 6545, 0, 45, 22];
+
+// function increasing_decreasing(){
+//     let increasing = array.sort((a,b)=>(b-a))
+
+
+//     return increasing
+// }
+
+
+// console.log(increasing_decreasing());
+
+
+// task 4 
+
+
+// let array = [1, 6, 34, 5, 1, -4, 54, 76, 23, 65, 3, 50, 45, 100, 2346, -52, 6545, 0, 45, 22];
+
+
+
+// let negative_number=array.filter(element=>element<0)
+
+
+// console.log(negative_number);
+
+
+
+// task  5
+
+
+// let textarr=['zaman ile yol ayri ayri bir yolculuqdur']
+
+
+// function formatKababcase(text){
+
+//     let format=text.split(' ').join('-').toUpperCase()
+
+//     console.log(format);
+
+// }
+
+
+// formatKababcase(textarr[0])
+
 
 // task 6
 
-// let orginalArray = [1, 5, -7, 3, -9, 4, -6, 2]
 
-// let output = orginalArray.map(a=>{
-//     if(a<0){
-//        return Math.abs(a)
-//     }else{
-//       return a *= 2
+// let orginalarr = [1, 5, -7, 3, -9, 4, -6, 2];
+
+// let Output=orginalarr.map(element=>{
+//     if(element<0){
+//      return -element
+
 //     }
+//     return element*=2
 // })
 
-// console.log(output);
+// console.log(Output);
 
-// task 7
 
 // let namesArray = [
 //     "Alice",
@@ -112,312 +173,245 @@
 //     "Alex",
 // ];
 
-// let Names = (names)=>{
-//     let filtername=names.filter(names=>names.startsWith('A'))
 
-//     if(filtername.length===0){
-//         console.log(`not found a name with start `);
-//     }else{
-//         console.log((filtername));
-//     }
+
+
+// function isName(name){
+//     let search
+//     search=name.filter(firstlatter=>firstlatter.startsWith("A"))
+    
+//     return search
 // }
 
-// Names(namesArray)
 
-// class task 1
 
-// let arr= [1 , 2 , 3 , 4 , 5]
+ 
+// console.log(isName(namesArray))
 
-// let arsymbol=[]
 
-// arr.forEach(element=>{
-//     let data=element*=2
-//     arsymbol.push(data)
-// })
 
-// console.log(arsymbol);
+// let search=namesArray.filter(firstlatter=>firstlatter.startsWith("A"))
 
-//task 2
+// console.log(search);
+   
 
-// let arr = [1 , 2 , 3 , 4, 5 , 6]
 
-// let allarray=(sum)=>{
-//     sum = 0
-//     arr.map(element=>{
-//         sum += element
-
-//     })
-//     console.log(sum);
-
-// }
-
-// allarray(arr)
-
-// task 3
-
-// let arr = [1,2,3,4,5,6]
-
-// let mostbig_mostSmall=(arr)=>{
-//     let  mostBigArrnum = Math.max(...arr)
-//     console.log(mostBigArrnum);
-//     let  mostSmallArrnum = Math.min(...arr)
-//     console.log(mostSmallArrnum);
-
-// }
-
-// mostbig_mostSmall(arr)
-
-// task 4
-
-// let arr = [1,2,3,4,5,6]
-
-// let reversedArr=(reversed)=>{
-//     let arrsymbol=[]
-//     for (let i = reversed.length-1;i>=0;i--){
-//         arrsymbol.push(reversed[i])
-
-//     }
-
-//     console.log(arrsymbol);
-
-// }
-
-// reversedArr(arr)
-
-// task 5
-
-// let arr_1 = [12,13,15,5,6,8,9,10]
-// let arr_2 = [12,13,3,0,4,1,9,2]
-
-// let arr_2Set=new Set(arr_2)
-
-// let uniqueElmentsfilter=arr_1.filter(element => arr_2Set.has(element))
-
-// console.log(uniqueElmentsfilter);
 
 // task 7
 
-// let arr =[1,5,7,2,6,-1,-5]
 
-// let increasing_decreasing=(arr)=>{
+// let  arr = [1,3,5,6,8,11,5,8,90,0]
 
-//     let increasing = arr.sort((a,b)=>a-b)
-//     console.log(`artan sıra: ${increasing}`);
+// let sumall=0
 
-//     let decreasing = arr.sort((a,b)=>b-a)
-//     console.log(`azalan sıra: ${decreasing}`);
-// }
+// let allsum=arr.map(element=>{
 
-// increasing_decreasing(arr)
+//     sumall+=element
+
+//     return sumall
+    
+// })
+
+// console.log(sumall);
+
 
 // task 8
 
-// let arr = [1 , 2 , 3 , 4, 5 , 6]
 
-// let allarray=(square)=>{
-//     let elementSquare
-//     let arrsymbol=[]
+// let arr = [1,3,5,6,8,11,5,8,90,0,-8,-7]
 
-//     arr.map(element=>{
-//     elementSquare = element*element
-//     arrsymbol.push(elementSquare)
-//     })
-//     console.log(arrsymbol);
 
+// function bigSmall (big,small){
+//     big=[]
+//     small=[]
+
+//     // big 
+//     let most_big = Math.max(...arr)
+//     big.push(most_big)
+
+//     console.log('most big: ',big);
+
+//     let most_small = Math.min(...arr)
+//     small.push(most_small)
+
+//     console.log('most small:',small);
 // }
 
-// allarray(arr)
+
+// bigSmall()
+
+
+// task 9
+
+
+// let arr = [1,3,5,6,8,10,11]
+
+// let reversearr=arr.reverse()
+
+
+// console.log(reversearr);
+
+
+
+
+
+// let arr = [1,3,5,6,8,10,11]
+
+// function reverseFunction (arr){
+//     let reverseArr=[]
+
+//     arr.forEach(element=>{
+//         reverseArr.unshift(element)
+//     });
+//     return reverseArr ;
+// }
+
+
+// console.log(reverseFunction(arr));
+
 
 // task 10
 
-// let arr = [1, 2, 3, 4, 5];
-
-// function arrtwo(arr) {
-//   let arsymbol = [];
-
-//   arr.forEach((element) => {
-//     let data = (element *= 2);
-//     arsymbol.push(data);
-//   });
-//   console.log(arsymbol);
-// }
-
-// arrtwo(arr)
+// let arr = [1,3,5,6,8,10,11]
 
 
-// task 11 
+
+// let search =arr.find(element=>element>10)
+
+// console.log(`find number : ${search}`);
 
 
-// let Vowels_ConsonantsArrs=['a','b','c','d','e','f','g','h','j','k']
 
 
-// function Vowels_Consonants(arr){
+// task 11
 
-//     const Vowels =['a', 'e', 'ı', 'i', 'o', 'ö', 'u', 'ü']
+// let arr = [1,3,5,6,8,10,11]
+
+// let decrement=arr.map(element=>element *=2)
 
 
-//     let VowelArr=[]
-//     let ConsonantArr=[]
 
-//     arr.forEach(element => {
-//         if(Vowels.includes(element)){
-//             VowelArr.push(element)
-//         }else{
-//             ConsonantArr.push(element)
-//         }
-        
-//     });
-     
-//     return {
-//         Vowels : VowelArr,
-//         Consonants : ConsonantArr
+// console.log(decrement);
+
+
+// task 12 
+
+
+// let arr = [1,2,3,4,5,1,1,2,3,4,5,8,1,11,44,23,12,0]
+// let newArr=[]
+
+
+// let repeatedNumber=arr.forEach(element=>{
+//     if(arr.indexOf(element) == arr.lastIndexOf(element)){
+//         newArr.push(element)
+
 //     }
+// })
+
+// console.log((newArr));
+
+
+
+// task 13
+
+
+
+// let arr = [1,3,5,6,8,10,11]
+
+// let twoSquare = arr.map(element=>element*element)
+
+// console.log(twoSquare);
+
+
+
+
+// task 14 
+
+
+// let Vowels_consonants=['a','b','c','d','f','r','y','o','l','m','ö']
+
+
+
+// let vowels_consonantsSearch=(vowels)=>{
+    
+//     vowels=['a','e', 'ı', 'i', 'o', 'ö', 'u', 'ü']
+
+//     let vowelsArr=[]
+//     let consonantsArr=[]
+
+//     let isvowels= Vowels_consonants.forEach(Character=>{
+//         if(vowels.includes(Character.toLowerCase())){
+//             vowelsArr.push(Character)
+            
+//         }else{
+//             consonantsArr.push(Character)
+            
+//         }  
+//     })
+//     console.log("vowels: ",vowelsArr);
+
+//     console.log('consonant:',consonantsArr);
+
+//     return isvowels;
+
+
+    
 // }
 
-// let result = Vowels_Consonants(Vowels_ConsonantsArrs);
-// console.log('sait:', result.Vowels); 
-// console.log('samit:', result.Consonants);
+
+
+// vowels_consonantsSearch()
 
 
 
-// task 12
 
-// let arr = [12,'salam',0.23,true,null]
+// task 15
+
+// let arr = [1,3,5,6,8,10,11]
+// let indexpush=[]
+// let indexsearch=arr.forEach((element , index)=>{
+
+//     indexpush.push(index)
+
+// })
+
+// console.log(indexpush);
 
 
-// function findindex(arr,value){
-//     arr.indexOf(value)
-//     if(arr.includes(value)){
-//         return arr.indexOf(value)
+// let arr = ['a','b','c','d','f','r','y','o','l','m','ö']
 
+// let indexpush=[]
+
+// let index=arr.forEach((element,index)=>{
+//      indexpush.push(index)
+// })
+
+// console.log(indexpush);
+
+
+// let arr = ['a','b','c','d','f','r','y','o','l','m','ö']
+
+// let index=arr.indexOf('a')
+// console.log(index);
+
+
+
+
+
+// task 16
+
+
+// let arr =[1,4,6,8,12,45,78,98,34,100]
+
+
+
+// let odd_even=arr.map(element=>{
+//     if(element%2==0){
+//         return `even num: ${element}`
 //     }else{
-//         return `not found array in ${value}`
+//         return `odd num: ${element}`
 //     }
+// })
 
 
-// }
-
-
-// console.log(findindex(arr,true));
-
-
-// task 14
-
-
-
-// let arr_1 = [12,13,15,5,6,8,9,10]
-// let arr_2 = [12,13,3,0,4,1,9,2]
-
-// let difrentsarrs=(arr_1Set,arr_2Set)=>{
-//   arr_1Set=new Set(arr_1)
-//   arr_2Set=new Set(arr_2)
-
-
-//   let uniqueElmentsfilter=arr_1.filter(element => !arr_2Set.has(element))
-//   let uniqueElmentsfilter2=arr_2.filter(element => !arr_1Set.has(element))
-//   return uniqueElmentsfilter.concat(uniqueElmentsfilter2)
-// }
-
-
-
-// console.log(difrentsarrs(arr_1,arr_2));
-
-
-
-// let number=[12,'str',13,89,'leol','cr',null,NaN]
-
-
-// task 17
-
-
-// function isNums(num){
-//     return num.map(element=>{
-//         if(typeof element == 'number' &&!isNaN(element)){
-//           return `this number: ${element}`
-//         }else{
-//             return `not number: ${element}`
-//         }
-
-//     })
-// }
-
-
-
-// console.log(isNums(number));
-
-
-// task 18
-
-// Fisher-Yates
-
-// let orginalarray=[1,2,5,7,9,22,34,64,76,98,20]
-
-
-// let suffleArray=(array)=>{
-//     for(let i = array.length-1;i>0;i--){
-//         const j = Math.floor(Math.random() * (i + 1))
-//         console.log(`${array[i],array[j]} ${array[j],array[i]} `);
-//         [array[i], array [j]] = [array[j], array [i]]
-//     }
-//     return array ;
-
-
-// }
-
-
-// let suffleRandomArray=suffleArray(orginalarray)
-
-// console.log(suffleRandomArray);
-
-// task 19
-
-
-// let oddandevenarr=[1,2,3,4,6,8,11,23,15,17,99]
-
-
-
-// function oddAndEven(oddandeven){
-
-//     return oddandeven.map(element=>{
-//         if(element%2==0){
-//             return `even number : ${element}`
-//         }else{
-//             return `odd number : ${element}`
-//         }
-//     })
-
-// }
-
-
-// console.log(oddAndEven(oddandevenarr));
-
-
-//  2
-
-
-// let oddandevenarr=[1,2,3,4,6,8,11,23,15,17,99]
-
-
-
-// function oddAndEven(oddandeven){
-//     let evennum=[]
-//     let oddnum=[]
-
-//     oddandeven.map(element=>{
-//         if(element%2==0){
-//              evennum.push(element)
-//         }else{
-//              oddnum.push(element)
-//         }
-//     })
-
-//     return {'even number:':evennum,  'odd number:':oddnum}
-
-// }
-
-
-// console.log(oddAndEven(oddandevenarr));
-
-
-
-
+// console.log(odd_even);
