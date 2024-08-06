@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+
+
+.calculator-container{
+    position: relative;
+    top: 30vh;
+    border: 2px solid #ccc;
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+.calculator-container input{
+    width: 100%;
+    font-size: 6vh;
+    background-color: black;
+    color: #ffff;
+    text-align: right;
+    padding: 10px 10px;
+}
+
+.calculator-keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 20px 20px;
+    grid-gap: 20px;
+}
+
+.calculator-keys button{
+    background-color: #fff;
+    border: 1px solid #c4c4c4c4;
+    font-size: 2.5rem;
+    padding: 10px 0px;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.calculator-keys button:hover{
+    background-color: #eaeaea;
+}
+
+
+.calculator-keys .operator{
+    color:#337cac
+}
+
+.calculator-keys .clear{
+    background-color:red;
+    border: red;
+    color: #fff;
+}
+
+.calculator-keys .clear:hover{
+    background-color: #f06065;
+}
+
+.calculator-keys .equal-sigin{
+    background-color: #4e9ed4;
+    color: #fff;
+    grid-area: 2/4/6/5;
+}
+
+
+.calculator-keys .equal-sigin:hover{
+    background-color: #5196c4;
+}
+
