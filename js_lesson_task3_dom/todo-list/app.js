@@ -119,8 +119,7 @@ const writeData = (todos)=>{
 
         i_2.addEventListener('click', (e) => {
             const isFix = prompt('update todo', item.todo);
-        
-            // Prompt null değilse güncellemeyi yap
+
             if (isFix !== null) {
                 todos = todos.map(t => {
                     if (t.id === item.id) {
