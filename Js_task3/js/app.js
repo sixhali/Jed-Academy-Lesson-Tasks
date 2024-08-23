@@ -17,12 +17,13 @@ axios(url).then(({status,data})=>{
         loading.style.display= 'none'
         data.products.forEach((product, index, arr) => {
         
-            const { title , images , price , rating} = product
+            const { title , images , price , rating,Id} = product
           product_row.innerHTML += `<div class="col-12 col-md-1 col-lg-3 product p2 border border-1 rounded">
                                      <div class="h2">${title}</div>
                                      <img src="${images[0]}" alt="">
                                      <div class="price">${price}Azn</div>
                                      ${rating_stars(rating)}
+                                     <a href="./product.html?producId=${Id}">daxil olun </a>
                                     </div>`;
                                     console.log(data);
                                     
