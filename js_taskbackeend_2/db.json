@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "3dd4",
+      "username": "zaman",
+      "age": "34",
+      "checkboxInput": false
+    },
+    {
+      "id": "5409",
+      "username": "azad",
+      "age": "32",
+      "checkboxInput": false
+    },
+    {
+      "id": "dac3",
+      "username": "batsuhayi",
+      "age": "31",
+      "checkboxInput": true
+    },
+    {
+      "id": "1a5b",
+      "username": "batsuhayi",
+      "age": "31",
+      "checkboxInput": true
+    }
+  ]
+}
