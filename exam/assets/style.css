@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-container{
+    border-bottom: 2px solid #FABC3F;
+}
+
+
+.addUserForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 20vh;
+}
+
+.addnewTodo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+input[type='text']{
+    padding: 10px 20px;
+    outline: none;
+    border: 2px solid #7C93C3;
+    border-radius: 5px ;
+    width: 100%;
+    max-width: 800px;
+}
+
+
+input[type='submit']{
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #FABC3F;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #7C93C3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+input[type='text']:focus {
+    border: 2px solid rgba(250, 188, 63, 0.7);
+    box-shadow: 0 0 10px rgba(250, 188, 63, 0.7), 0 0 15px rgba(124, 147, 195, 0.5); /* Box shadow */
+    outline: none;
+}
+
+
+.form-container-content table{
+
+    margin:50px auto;
+    width: 100%;;
+    max-width: 1000px;
+    border: 2px solid #E85C0D;
+}
+
+table tr{
+   border: 2px solid red;
+}
+
+table th{
+    border: 1px solid #FABC3F ;
+    
+    background-color: black;
+    padding: 20px 20px;
+    color: #fff;
+}
+
+table td{
+    border: 2px solid #7C93C3;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+#delete{
+    padding: 5px 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+#edit{
+    padding: 5px 30px;
+    background-color: #E85C0D;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.checked{
+    background-color: red;
+}
